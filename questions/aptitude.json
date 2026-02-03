@@ -1,0 +1,888 @@
+[
+  {
+    "question": "What is the next number in the sequence: 2, 4, 8, 16, 32, ?",
+    "options": ["48", "64", "60", "50"],
+    "answer": "64",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If a shirt costs ₹450 and discount is 10%, what is the final price?",
+    "options": ["₹405", "₹410", "₹400", "₹425"],
+    "answer": "₹405",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 15% of 200?",
+    "options": ["25", "30", "35", "40"],
+    "answer": "30",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the missing term: 3, 9, 27, 81, ?",
+    "options": ["243", "162", "324", "200"],
+    "answer": "243",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A train travels 120 km in 3 hours. What is its speed?",
+    "options": ["30 km/h", "40 km/h", "50 km/h", "60 km/h"],
+    "answer": "40 km/h",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is √144?",
+    "options": ["10", "11", "12", "14"],
+    "answer": "12",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 45 × 12?",
+    "options": ["480", "540", "510", "495"],
+    "answer": "540",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Ravi has 60 mangoes. He gives 30%. How many are left?",
+    "options": ["20", "42", "40", "24"],
+    "answer": "42",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Convert the fraction 3/4 to percentage.",
+    "options": ["50%", "65%", "75%", "85%"],
+    "answer": "75%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 7³?",
+    "options": ["343", "240", "300", "3430"],
+    "answer": "343",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "How many hours are there in 5 days?",
+    "options": ["100", "110", "120", "140"],
+    "answer": "120",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the odd number: 21, 35, 49, 56, 63",
+    "options": ["35", "49", "56", "63"],
+    "answer": "56",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If a = 1, b = 2, c = 3, ... then value of DOG?",
+    "options": ["26", "30", "22", "24"],
+    "answer": "26",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which number is divisible by 9?",
+    "options": ["234", "321", "452", "555"],
+    "answer": "234",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "How many minutes in 2.5 hours?",
+    "options": ["120", "140", "150", "160"],
+    "answer": "150",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the next term: 5, 10, 20, 40, ?",
+    "options": ["60", "70", "80", "100"],
+    "answer": "80",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 1/5 of 1000?",
+    "options": ["100", "200", "250", "150"],
+    "answer": "200",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A clock shows 3:15. What angle is between the hour and minute hands?",
+    "options": ["0°", "10°", "7.5°", "12.5°"],
+    "answer": "7.5°",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which is the smallest prime number?",
+    "options": ["1", "2", "3", "5"],
+    "answer": "2",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the LCM of 6 and 8?",
+    "options": ["12", "16", "24", "48"],
+    "answer": "24",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which is greater: 2/3 or 3/5?",
+    "options": ["2/3", "3/5", "Equal", "Can't determine"],
+    "answer": "2/3",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which number is a perfect square?",
+    "options": ["21", "56", "81", "91"],
+    "answer": "81",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the HCF of 18 and 24.",
+    "options": ["3", "4", "6", "8"],
+    "answer": "6",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "How many edges does a cube have?",
+    "options": ["10", "12", "8", "6"],
+    "answer": "12",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which is nearest to √50?",
+    "options": ["6", "7", "8", "10"],
+    "answer": "7",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If the selling price is ₹600 and profit is 20%, what is the cost price?",
+    "options": ["₹480", "₹500", "₹520", "₹550"],
+    "answer": "₹500",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the simple interest on ₹2000 at 10% per annum for 2 years?",
+    "options": ["₹200", "₹300", "₹400", "₹250"],
+    "answer": "₹400",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man walks at 5 km/h. How much distance in 3 hours?",
+    "options": ["10 km", "15 km", "12 km", "18 km"],
+    "answer": "15 km",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 25% of 360?",
+    "options": ["90", "80", "100", "120"],
+    "answer": "90",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the next number: 11, 14, 17, 20, ?",
+    "options": ["21", "22", "23", "24"],
+    "answer": "23",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 8x = 64, what is x?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "8",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the average of: 10, 20, 30, 40?",
+    "options": ["20", "25", "30", "35"],
+    "answer": "25",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A sum of ₹500 is doubled in 5 years at simple interest. What is the rate?",
+    "options": ["10%", "15%", "20%", "25%"],
+    "answer": "20%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A bag has 3 red and 2 blue balls. Probability of picking red ball?",
+    "options": ["1/2", "2/5", "3/5", "1/3"],
+    "answer": "3/5",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 18 × 14?",
+    "options": ["252", "264", "272", "248"],
+    "answer": "252",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the next term: 4, 9, 16, 25, ?",
+    "options": ["30", "32", "36", "49"],
+    "answer": "36",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 20% of a number is 40, what is the number?",
+    "options": ["150", "180", "200", "220"],
+    "answer": "200",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man can do a job in 10 days. His friend can do it in 20 days. Together they finish in?",
+    "options": ["5 days", "6.67 days", "7.5 days", "8 days"],
+    "answer": "6.67 days",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If the ratio of boys to girls is 3:2, and there are 30 boys, how many girls?",
+    "options": ["10", "15", "18", "20"],
+    "answer": "20",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the compound interest on ₹1000 at 10% for 2 years (annually)?",
+    "options": ["₹200", "₹210", "₹220", "₹230"],
+    "answer": "₹210",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A car covers 150 km in 3 hours. What is its speed?",
+    "options": ["40 km/h", "45 km/h", "50 km/h", "60 km/h"],
+    "answer": "50 km/h",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If selling price is less than cost price, then it is:",
+    "options": ["Profit", "Loss", "Break-even", "None"],
+    "answer": "Loss",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 3/8 of 400?",
+    "options": ["100", "125", "150", "200"],
+    "answer": "150",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The sum of two consecutive even numbers is 26. What are the numbers?",
+    "options": ["10 and 16", "12 and 14", "11 and 15", "8 and 18"],
+    "answer": "12 and 14",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is 9² + 4²?",
+    "options": ["65", "77", "81", "97"],
+    "answer": "97",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A person scores 80, 70, 90 in three subjects. What is the average?",
+    "options": ["78", "80", "82", "85"],
+    "answer": "80",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the perimeter of a square of side 7 cm?",
+    "options": ["21 cm", "28 cm", "35 cm", "49 cm"],
+    "answer": "28 cm",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 6 workers complete a task in 8 days, how many workers needed to finish in 4 days?",
+    "options": ["6", "8", "10", "12"],
+    "answer": "12",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If the cost of 5 pens is ₹75, what is the cost of 8 pens?",
+    "options": ["₹100", "₹110", "₹115", "₹120"],
+    "answer": "₹120",
+    "test_type": "aptitude"
+  }
+
+  ,
+{
+  "question": "If A:B = 3:4 and B:C = 2:5, what is A:C?",
+  "options": ["6:20", "3:10", "3:5", "6:5"],
+  "answer": "3:10",
+  "test_type": "aptitude"
+},
+{
+  "question": "A box contains 6 red, 4 blue, and 5 green balls. What is the probability of selecting a green ball?",
+  "options": ["5/15", "5/12", "5/30", "1/3"],
+  "answer": "5/15",
+  "test_type": "aptitude"
+},
+{
+  "question": "If the marked price of an item is ₹2000 and discount is 25%, selling price is:",
+  "options": ["₹1500", "₹1400", "₹1200", "₹1000"],
+  "answer": "₹1500",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find the next number: 14, 28, 20, 40, 32, ?",
+  "options": ["64", "56", "50", "48"],
+  "answer": "64",
+  "test_type": "aptitude"
+},
+{
+  "question": "The average of five consecutive odd numbers is 27. What is the smallest number?",
+  "options": ["19", "21", "23", "25"],
+  "answer": "23",
+  "test_type": "aptitude"
+},
+{
+  "question": "A man invests ₹5000 at 8% compound interest for 2 years. Amount received is:",
+  "options": ["₹5832", "₹5720", "₹5400", "₹6000"],
+  "answer": "₹5832",
+  "test_type": "aptitude"
+},
+{
+  "question": "A person covers 90 km at 30 km/h and returns at 45 km/h. What is the average speed?",
+  "options": ["36 km/h", "37.5 km/h", "40 km/h", "42 km/h"],
+  "answer": "36 km/h",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: (144 ÷ 12) × (5 + 1)",
+  "options": ["72", "60", "66", "50"],
+  "answer": "72",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find the missing number: 7, 26, 63, 124, ?",
+  "options": ["215", "186", "205", "150"],
+  "answer": "215",
+  "test_type": "aptitude"
+},
+{
+  "question": "If 3 men or 6 women can complete a task in 12 days, how many days will 4 men and 2 women take?",
+  "options": ["6 days", "8 days", "10 days", "12 days"],
+  "answer": "6 days",
+  "test_type": "aptitude"
+},
+{
+  "question": "A train 200m long passes a pole in 10s. Find its speed.",
+  "options": ["54 km/h", "60 km/h", "72 km/h", "40 km/h"],
+  "answer": "72 km/h",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: √(196 + 144)",
+  "options": ["12", "15", "17", "18"],
+  "answer": "17",
+  "test_type": "aptitude"
+},
+{
+  "question": "What comes next? AZ, CX, EV, GT, ?",
+  "options": ["IR", "HR", "IQ", "JR"],
+  "answer": "IR",
+  "test_type": "aptitude"
+},
+{
+  "question": "If selling price is ₹4200 and loss is 12.5%, cost price is:",
+  "options": ["₹4500", "₹4800", "₹5000", "₹4200"],
+  "answer": "₹4800",
+  "test_type": "aptitude"
+},
+{
+  "question": "10 men complete a job in 12 days. How many men needed to finish in 8 days?",
+  "options": ["14", "15", "18", "20"],
+  "answer": "15",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which is the smallest number divisible by 12, 15, and 20?",
+  "options": ["120", "180", "240", "300"],
+  "answer": "60",
+  "test_type": "aptitude"
+},
+{
+  "question": "The perimeter of a rectangle is 72cm and length is 20cm. Breadth is:",
+  "options": ["12cm", "14cm", "16cm", "18cm"],
+  "answer": "16cm",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find the value of 4³ + 5²",
+  "options": ["41", "49", "57", "81"],
+  "answer": "41",
+  "test_type": "aptitude"
+},
+{
+  "question": "In a class of 50 students, boys are 60%. How many girls?",
+  "options": ["15", "18", "20", "25"],
+  "answer": "20",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find HCF of 96 and 144",
+  "options": ["16", "24", "32", "48"],
+  "answer": "48",
+  "test_type": "aptitude"
+},
+{
+  "question": "What is the next term? 4, 18, 100, 294, ?",
+  "options": ["900", "720", "864", "1000"],
+  "answer": "900",
+  "test_type": "aptitude"
+},
+{
+  "question": "If difference between simple and compound interest for 2 years at 10% on ₹2000 is?",
+  "options": ["₹20", "₹22", "₹24", "₹25"],
+  "answer": "₹20",
+  "test_type": "aptitude"
+},
+{
+  "question": "Convert ratio 4:5 to percentage.",
+  "options": ["80%", "70%", "60%", "90%"],
+  "answer": "80%",
+  "test_type": "aptitude"
+},
+{
+  "question": "If x = 5, what is 2x² - 3x + 4?",
+  "options": ["39", "44", "52", "50"],
+  "answer": "39",
+  "test_type": "aptitude"
+},
+{
+  "question": "Simplify: 1/2 + 1/4 + 1/8",
+  "options": ["7/8", "3/4", "1", "5/8"],
+  "answer": "7/8",
+  "test_type": "aptitude"
+},
+{
+  "question": "A tap fills a tank in 10 mins. Another empties in 15 mins. Together time is:",
+  "options": ["20 min", "30 min", "40 min", "50 min"],
+  "answer": "30 min",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which number follows: 6, 13, 27, 55, ?",
+  "options": ["98", "112", "113", "121"],
+  "answer": "113",
+  "test_type": "aptitude"
+},
+{
+  "question": "What is (25 × 24 ÷ 6) + 15?",
+  "options": ["115", "105", "100", "110"],
+  "answer": "115",
+  "test_type": "aptitude"
+},
+{
+  "question": "A car increases speed from 50 km/h to 70 km/h. What percent increase?",
+  "options": ["20%", "30%", "40%", "50%"],
+  "answer": "40%",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find the next term: K, N, Q, T, ?",
+  "options": ["V", "W", "X", "Y"],
+  "answer": "W",
+  "test_type": "aptitude"
+},
+{
+  "question": "The sum of first 10 natural numbers?",
+  "options": ["45", "50", "55", "60"],
+  "answer": "55",
+  "test_type": "aptitude"
+},
+{
+  "question": "A man spends 25% of salary on rent. If salary ₹20000, rent =?",
+  "options": ["₹4000", "₹4500", "₹5000", "₹5500"],
+  "answer": "₹5000",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find the LCM of 15, 20, & 50",
+  "options": ["100", "150", "200", "250"],
+  "answer": "100",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which number is prime?",
+  "options": ["21", "33", "41", "55"],
+  "answer": "41",
+  "test_type": "aptitude"
+},
+{
+  "question": "What is 9 × 14?",
+  "options": ["126", "140", "124", "136"],
+  "answer": "126",
+  "test_type": "aptitude"
+},
+{
+  "question": "If angles in triangle are 40° and 70°, third angle?",
+  "options": ["60°", "70°", "80°", "90°"],
+  "answer": "70°",
+  "test_type": "aptitude"
+},
+{
+  "question": "14% of 3500?",
+  "options": ["420", "450", "470", "490"],
+  "answer": "490",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: (3/7) ÷ (6/14)",
+  "options": ["1", "1.5", "2", "0.5"],
+  "answer": "1",
+  "test_type": "aptitude"
+},
+{
+  "question": "If CP=₹600, SP=₹750, profit%?",
+  "options": ["15%", "20%", "25%", "30%"],
+  "answer": "25%",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find odd one: 18, 27, 36, 45, 52",
+  "options": ["36", "52", "45", "18"],
+  "answer": "52",
+  "test_type": "aptitude"
+},
+{
+  "question": "Convert decimal 0.625 into fraction:",
+  "options": ["5/8", "3/4", "2/3", "7/8"],
+  "answer": "5/8",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which is greatest: 0.9 , 0.89 , 1.01 , 0.95?",
+  "options": ["0.9", "0.95", "1.01", "0.89"],
+  "answer": "1.01",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: (150 ÷ 5) × 3",
+  "options": ["80", "85", "90", "95"],
+  "answer": "90",
+  "test_type": "aptitude"
+},
+{
+  "question": "The square of 24 is?",
+  "options": ["576", "486", "564", "600"],
+  "answer": "576",
+  "test_type": "aptitude"
+},
+{
+  "question": "If 3 pencils cost ₹15, cost of 10 pencils?",
+  "options": ["₹30", "₹40", "₹50", "₹60"],
+  "answer": "₹50",
+  "test_type": "aptitude"
+},
+{
+  "question": "Cube root of 512?",
+  "options": ["6", "7", "8", "9"],
+  "answer": "8",
+  "test_type": "aptitude"
+},
+{
+  "question": "What is 18% of 250?",
+  "options": ["35", "40", "45", "50"],
+  "answer": "45",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which is NOT divisible by 3?",
+  "options": ["123", "222", "281", "369"],
+  "answer": "281",
+  "test_type": "aptitude"
+}
+,
+{
+  "question": "A and B together can do a work in 12 days. A alone can do it in 20 days. How long will B alone take?",
+  "options": ["30 days", "40 days", "24 days", "15 days"],
+  "answer": "30 days",
+  "test_type": "aptitude"
+},
+{
+  "question": "A number exceeds its 2/3 by 48. What is the number?",
+  "options": ["60", "72", "96", "144"],
+  "answer": "144",
+  "test_type": "aptitude"
+},
+{
+  "question": "The ratio of ages of A and B is 4:5. After 6 years ratio becomes 5:6. Find A’s current age.",
+  "options": ["24", "20", "30", "22"],
+  "answer": "20",
+  "test_type": "aptitude"
+},
+{
+  "question": "A man buys an article for ₹800 and marks it 50% above cost. After giving discount of 10%, what is profit?",
+  "options": ["₹280", "₹240", "₹220", "₹260"],
+  "answer": "₹240",
+  "test_type": "aptitude"
+},
+{
+  "question": "If (x + 1/x) = 5, find (x² + 1/x²).",
+  "options": ["21", "23", "25", "27"],
+  "answer": "23",
+  "test_type": "aptitude"
+},
+{
+  "question": "A train running at 80 km/h crosses a platform in 36s. If train length is 240m, find platform length.",
+  "options": ["560m", "360m", "480m", "720m"],
+  "answer": "560m",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find next number: 11, 23, 47, 95, ?",
+  "options": ["191", "185", "198", "200"],
+  "answer": "191",
+  "test_type": "aptitude"
+},
+{
+  "question": "If simple interest on ₹6000 for x years at 5% equals ₹1500, find x.",
+  "options": ["4 years", "5 years", "6 years", "7 years"],
+  "answer": "5 years",
+  "test_type": "aptitude"
+},
+{
+  "question": "A, B, C share profit in ratio 5:3:2. If total profit is ₹50,000, C gets?",
+  "options": ["₹10,000", "₹8,000", "₹12,000", "₹15,000"],
+  "answer": "₹10,000",
+  "test_type": "aptitude"
+},
+{
+  "question": "Sum of digits of a two-digit number is 9. If number is 9 more than twice the tens digit, number is?",
+  "options": ["36", "54", "45", "63"],
+  "answer": "45",
+  "test_type": "aptitude"
+},
+{
+  "question": "The average of 7 numbers is 45. If one number is removed and average becomes 42, removed number is:",
+  "options": ["63", "70", "90", "78"],
+  "answer": "63",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: (3/4 + 2/5 - 1/2)",
+  "options": ["11/20", "13/20", "17/20", "19/20"],
+  "answer": "13/20",
+  "test_type": "aptitude"
+},
+{
+  "question": "If a:b = 6:7 and b:c = 14:9, find a:c",
+  "options": ["1:2", "3:4", "4:3", "6:9"],
+  "answer": "4:3",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find HCF of 108, 180 and 270.",
+  "options": ["18", "36", "45", "54"],
+  "answer": "36",
+  "test_type": "aptitude"
+},
+{
+  "question": "A man rows 12 km downstream in 3 hours and upstream in 4 hours. Find speed in still water.",
+  "options": ["3.5 km/h", "4 km/h", "5 km/h", "6 km/h"],
+  "answer": "4 km/h",
+  "test_type": "aptitude"
+},
+{
+  "question": "The perimeter of a circle is equal to perimeter of square of side 22cm. Find radius.",
+  "options": ["14 cm", "11 cm", "7 cm", "17 cm"],
+  "answer": "14 cm",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: 2³ × 5² ÷ 10",
+  "options": ["8", "10", "12", "20"],
+  "answer": "20",
+  "test_type": "aptitude"
+},
+{
+  "question": "If CP = ₹1200 and profit = 25%, SP =?",
+  "options": ["₹1400", "₹1450", "₹1500", "₹1600"],
+  "answer": "₹1500",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find next: 5, 12, 24, 45, 77, ?",
+  "options": ["112", "120", "126", "135"],
+  "answer": "112",
+  "test_type": "aptitude"
+},
+{
+  "question": "Compound interest on ₹4000 at 10% for 2 years:",
+  "options": ["₹840", "₹800", "₹880", "₹900"],
+  "answer": "₹840",
+  "test_type": "aptitude"
+},
+{
+  "question": "If log₁₀(x) = 2, x = ?",
+  "options": ["100", "1000", "10", "200"],
+  "answer": "100",
+  "test_type": "aptitude"
+},
+{
+  "question": "Simplify: (125 ÷ 5) + (144 ÷ 12)",
+  "options": ["37", "41", "45", "50"],
+  "answer": "41",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find median: 12, 18, 20, 25, 30",
+  "options": ["18", "20", "22", "25"],
+  "answer": "20",
+  "test_type": "aptitude"
+},
+{
+  "question": "A’s salary is 20% more than B. If B earns ₹40,000, A earns?",
+  "options": ["₹44,000", "₹46,000", "₹48,000", "₹50,000"],
+  "answer": "₹48,000",
+  "test_type": "aptitude"
+},
+{
+  "question": "If 15 workers build a wall in 12 days, 20 workers need:",
+  "options": ["6 days", "7 days", "9 days", "12 days"],
+  "answer": "9 days",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find next number: 92, 46, 47, 94, 95, ?",
+  "options": ["190", "96", "97", "100"],
+  "answer": "190",
+  "test_type": "aptitude"
+},
+{
+  "question": "The area of a triangle with base 16cm and height 7cm is:",
+  "options": ["56cm²", "48cm²", "64cm²", "84cm²"],
+  "answer": "56cm²",
+  "test_type": "aptitude"
+},
+{
+  "question": "If x : y = 2 : 7 and y : z = 3 : 5, then x : y : z = ?",
+  "options": ["6:21:35", "2:7:5", "6:7:5", "6:10:7"],
+  "answer": "6:21:35",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find simple interest for ₹900 at 12% in 2 years.",
+  "options": ["₹180", "₹200", "₹210", "₹216"],
+  "answer": "₹216",
+  "test_type": "aptitude"
+},
+{
+  "question": "The selling price is 125% of cost price. Profit percent is:",
+  "options": ["20%", "25%", "30%", "50%"],
+  "answer": "25%",
+  "test_type": "aptitude"
+},
+{
+  "question": "Square of 37:",
+  "options": ["1269", "1369", "1469", "1176"],
+  "answer": "1369",
+  "test_type": "aptitude"
+},
+{
+  "question": "A ratio becomes 9:10 after adding 3 to both numbers. Original ratio?",
+  "options": ["6:7", "7:8", "8:9", "5:6"],
+  "answer": "6:7",
+  "test_type": "aptitude"
+},
+{
+  "question": "25% of 480 + 15% of 320 = ?",
+  "options": ["180", "192", "200", "208"],
+  "answer": "192",
+  "test_type": "aptitude"
+},
+{
+  "question": "A boat travels 48 km downstream in 6h and upstream in 8h. Speed of stream?",
+  "options": ["1 km/h", "1.5 km/h", "2 km/h", "3 km/h"],
+  "answer": "2 km/h",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: 56 ÷ 0.8",
+  "options": ["60", "65", "70", "75"],
+  "answer": "70",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find next: 2, 5, 12, 29, ?",
+  "options": ["56", "62", "65", "70"],
+  "answer": "70",
+  "test_type": "aptitude"
+},
+{
+  "question": "Two numbers difference is 56. If bigger is 4 times smaller, smaller number:",
+  "options": ["12", "14", "16", "18"],
+  "answer": "14",
+  "test_type": "aptitude"
+},
+{
+  "question": "Cube of 13:",
+  "options": ["169", "2197", "1728", "1960"],
+  "answer": "2197",
+  "test_type": "aptitude"
+},
+{
+  "question": "Simplify: (80% of 250) - (25% of 400)",
+  "options": ["50", "60", "70", "80"],
+  "answer": "80",
+  "test_type": "aptitude"
+},
+{
+  "question": "If algebra:geometry = 3:5 and geometry:physics = 4:7, algebra:geometry:physics?",
+  "options": ["12:20:35", "3:5:7", "4:7:9", "6:7:10"],
+  "answer": "12:20:35",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find HCF of 72, 120 and 180",
+  "options": ["12", "24", "36", "18"],
+  "answer": "12",
+  "test_type": "aptitude"
+},
+{
+  "question": "What is 33⅓% of 750?",
+  "options": ["225", "250", "275", "300"],
+  "answer": "250",
+  "test_type": "aptitude"
+},
+{
+  "question": "If log base 2 of x is 6, x = ?",
+  "options": ["64", "128", "256", "512"],
+  "answer": "64",
+  "test_type": "aptitude"
+},
+{
+  "question": "Which is largest fraction?",
+  "options": ["5/8", "11/16", "3/4", "7/9"],
+  "answer": "7/9",
+  "test_type": "aptitude"
+},
+{
+  "question": "A man invested ₹10,000 at 12% CI for 2 years. Amount =?",
+  "options": ["₹12,200", "₹12,500", "₹12,544", "₹12,760"],
+  "answer": "₹12,544",
+  "test_type": "aptitude"
+},
+{
+  "question": "Solve: (9/10 × 5/6) ÷ (3/4)",
+  "options": ["1.25", "1.5", "1.2", "1.8"],
+  "answer": "1.25",
+  "test_type": "aptitude"
+},
+{
+  "question": "Find next: 80, 60, 45, 33.75, ?",
+  "options": ["26.81", "24.66", "22.5", "20"],
+  "answer": "25.31",
+  "test_type": "aptitude"
+},
+{
+  "question": "If a sum becomes 3 times in 10 years at simple interest. Rate per year:",
+  "options": ["10%", "15%", "20%", "25%"],
+  "answer": "20%",
+  "test_type": "aptitude"
+},
+{
+  "question": "Average of first 50 natural numbers:",
+  "options": ["24.5", "25", "25.5", "26"],
+  "answer": "25.5",
+  "test_type": "aptitude"
+},
+{
+  "question": "If cost price decreases by 10% and selling price remains same, profit increases by:",
+  "options": ["11.11%", "12.5%", "15%", "20%"],
+  "answer": "11.11%",
+  "test_type": "aptitude"
+}
+
+]

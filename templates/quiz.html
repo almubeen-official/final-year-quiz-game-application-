@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ subject }} Quiz</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <div class="quiz-header">
+        <h1>{{ subject }} Examination</h1>
+        <div id="timer" class="timer">Time Left: 10:00</div>
+    </div>
+
+    <form method="post" id="quizForm">
+
+        {% for q in questions %}
+            {% set q_index = loop.index0 %}
+
+            <div class="question-box">
+                <p class="question">
+                    {{ loop.index }}. {{ q.question }}
+                </p>
+
+                <div class="options">
+                    {% for opt in q.options %}
+                        <label class="option">
+                            <input type="radio"
+                                   name="q{{ q_index }}"
+                                   value="{{ opt }}"
+                                   required>
+                            <span>{{ opt }}</span>
+                        </label>
+                    {% endfor %}
+                </div>
+            </div>
+
+        {% endfor %}
+
+        <button type="submit" class="submit-btn">
+            Submit Examination
+        </button>
+    </form>
+
+</div>
+
+<script>
+let timeLeft = 600;
+
+const timerEl = document.getElementById("timer");
+const form = document.getElementById("quizForm");
+
+const timer = setInterval(() => {
+    let minutes = Math.floor(timeLeft / 60);
+    let seconds = timeLeft % 60;
+
+    timerEl.innerText =
+        "Time Left: " +
+        String(minutes).padStart(2, "0") + ":" +
+        String(seconds).padStart(2, "0");
+
+    if (timeLeft <= 0) {
+        clearInterval(timer);
+        alert("Time is up. Your exam will be submitted.");
+        form.submit();
+    }
+
+    timeLeft--;
+}, 1000);
+</script>
+
+</body>
+</html>

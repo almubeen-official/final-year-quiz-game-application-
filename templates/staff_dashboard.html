@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Staff Dashboard</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h1>Staff Dashboard</h1>
+
+    <h3>Total Students Attended Exam: {{ total_attended }}</h3>
+
+    <h3>Student Register Details</h3>
+    <table>
+        <tr><th>Name</th><th>Email</th><th>Delete</th></tr>
+        {% for s in students %}
+        <tr>
+            <td>{{ s[1] }}</td>
+            <td>{{ s[2] }}</td>
+            <td><a href="/delete/student/{{ s[0] }}" style="background:red;">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h3>Exam Results</h3>
+    <table>
+        <tr>
+            <th>Student</th>
+            <th>Subject</th>
+            <th>Score</th>
+            <th>Total</th>
+            <th>Delete</th>
+        </tr>
+        {% for r in results %}
+        <tr>
+            <td>{{ r[1] }}</td>
+            <td>{{ r[2] }}</td>
+            <td>{{ r[3] }}</td>
+            <td>{{ r[4] }}</td>
+            <td><a href="/delete/result/{{ r[0] }}" style="background:red;">Delete</a></td>
+        </tr>
+        {% endfor %}
+    </table>
+
+</div>
+
+</body>
+</html>

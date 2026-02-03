@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Game Portal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container front-card">
+
+    <h1 class="portal-title">Quiz Game Portal</h1>
+    <p class="portal-subtitle">Online Examination System</p>
+
+    <!-- STUDENT -->
+    <div class="role-section">
+        <h3 class="role-title">Student</h3>
+        <p class="role-desc">
+            Register and attend the online examination
+        </p>
+        <a href="/register" class="btn btn-student">
+            Student Registration
+        </a>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- STAFF -->
+    <div class="role-section">
+        <h3 class="role-title">Staff</h3>
+        <p class="role-desc">
+            Login to manage students and examination results
+        </p>
+        <a href="/staff" class="btn btn-staff">
+            Staff Login
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

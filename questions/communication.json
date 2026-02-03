@@ -1,0 +1,603 @@
+[
+    {
+"question": "How do you introduce yourself in a professional setting?",
+"options": ["Give personal details only", "Talk casually", "Provide a structured introduction with education and strengths", "Avoid eye contact"],
+"answer": "Provide a structured introduction with education and strengths",
+"test_type": "communication"
+},
+
+{
+"question": "How should you answer: 'Tell me about yourself'?",
+"options": ["Talk for 10 minutes", "Discuss unrelated hobbies", "Give a short structured summary", "Share personal problems"],
+"answer": "Give a short structured summary",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to greet an interviewer?",
+"options": ["Smile and say good morning", "Nod silently", "Handshake without eye contact", "Sit without greeting"],
+"answer": "Smile and say good morning",
+"test_type": "communication"
+},
+{
+"question": "How do you handle misunderstandings at work?",
+"options": ["Ignore them", "Get angry", "Communicate politely to clarify", "Wait for someone else"],
+"answer": "Communicate politely to clarify",
+"test_type": "communication"
+},
+{
+"question": "What is active listening?",
+"options": ["Speaking more than others", "Listening silently without understanding", "Listening carefully and responding appropriately", "Interrupting to share your views"],
+"answer": "Listening carefully and responding appropriately",
+"test_type": "communication"
+},
+{
+"question": "What is the best body language during an interview?",
+"options": ["Cross arms and look down", "Sit straight and maintain eye contact", "Move constantly", "Avoid smiling"],
+"answer": "Sit straight and maintain eye contact",
+"test_type": "communication"
+},
+{
+"question": "How should you respond if you don’t know an answer?",
+"options": ["Lie", "Stay silent", "Admit and show willingness to learn", "Change the topic"],
+"answer": "Admit and show willingness to learn",
+"test_type": "communication"
+},
+{
+"question": "What tone should you use in professional mail?",
+"options": ["Casual", "Aggressive", "Formal and polite", "Sarcastic"],
+"answer": "Formal and polite",
+"test_type": "communication"
+},
+{
+"question": "What is the key to teamwork?",
+"options": ["Dominating others", "Clear communication", "Working alone", "Ignoring teammates"],
+"answer": "Clear communication",
+"test_type": "communication"
+},
+{
+"question": "If a colleague is not cooperating, what should you do?",
+"options": ["Complain immediately", "Ignore them forever", "Communicate and find a solution", "Get angry"],
+"answer": "Communicate and find a solution",
+"test_type": "communication"
+},
+{
+"question": "What should you avoid during an interview?",
+"options": ["Direct clear answers", "Talking negatively about others", "Confidence", "Asking doubts"],
+"answer": "Talking negatively about others",
+"test_type": "communication"
+},
+{
+"question": "What improves communication?",
+"options": ["Active listening", "Interrupting", "Anger", "Avoiding discussions"],
+"answer": "Active listening",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to ask doubts?",
+"options": ["Interrupt mid-sentence", "Ask politely at the right time", "Avoid asking", "Speak loudly"],
+"answer": "Ask politely at the right time",
+"test_type": "communication"
+},
+{
+"question": "What is essential during group discussion?",
+"options": ["Shouting", "Not listening", "Respectful communication", "Interrupting others"],
+"answer": "Respectful communication",
+"test_type": "communication"
+},
+{
+"question": "What shows confidence in communication?",
+"options": ["Confusing answers", "Maintaining eye contact", "Talking continuously", "Avoiding questions"],
+"answer": "Maintaining eye contact",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to close an interview?",
+"options": ["Leave silently", "Say thank you confidently", "Argue", "Ask unrelated questions"],
+"answer": "Say thank you confidently",
+"test_type": "communication"
+},
+{
+"question": "How do you communicate deadlines to teammates?",
+"options": ["Assume they know", "Shout at them", "Inform clearly and politely", "Ignore delays"],
+"answer": "Inform clearly and politely",
+"test_type": "communication"
+},
+{
+"question": "Which one is non-verbal communication?",
+"options": ["Emails", "Speaking", "Body language", "Phone call"],
+"answer": "Body language",
+"test_type": "communication"
+},
+{
+"question": "How do you show respect in conversation?",
+"options": ["Interrupt", "Talk casually", "Listen fully before responding", "Ignore others"],
+"answer": "Listen fully before responding",
+"test_type": "communication"
+},
+{
+"question": "What is the best communication in workplace?",
+"options": ["Clear and polite", "Fast and unclear", "Loud", "Rude"],
+"answer": "Clear and polite",
+"test_type": "communication"
+},
+{
+"question": "How do you handle pressure at work?",
+"options": ["Panic immediately", "Stay calm, prioritize tasks, and work step by step", "Avoid work", "Blame others"],
+"answer": "Stay calm, prioritize tasks, and work step by step",
+"test_type": "communication"
+},
+{
+"question": "If your manager criticizes your work, what should you do?",
+"options": ["Argue back", "Ignore them", "Listen carefully and improve", "Complain to HR"],
+"answer": "Listen carefully and improve",
+"test_type": "communication"
+},
+{
+"question": "How do you respond to ‘Why should we hire you?’",
+"options": ["Say you need money", "Highlight relevant skills and strengths", "Talk about family issues", "Stay silent"],
+"answer": "Highlight relevant skills and strengths",
+"test_type": "communication"
+},
+{
+"question": "What should you say when asked about your weakness?",
+"options": ["I have no weakness", "I am perfect", "Share a real weakness and how you're improving", "Tell a fake story"],
+"answer": "Share a real weakness and how you're improving",
+"test_type": "communication"
+},
+{
+"question": "How to behave in a group discussion?",
+"options": ["Dominate others", "Let others speak too", "Shout more than others", "Avoid speaking"],
+"answer": "Let others speak too",
+"test_type": "communication"
+},
+{
+"question": "What will you do if you are not able to complete a task on time?",
+"options": ["Hide the delay", "Inform manager early with valid reason", "Lie about progress", "Avoid responsibility"],
+"answer": "Inform manager early with valid reason",
+"test_type": "communication"
+},
+{
+"question": "How do you handle conflicts in a team?",
+"options": ["Avoid teammates forever", "Resolve through open discussion", "Report for small issues", "Shout to prove your point"],
+"answer": "Resolve through open discussion",
+"test_type": "communication"
+},
+{
+"question": "If you made a mistake in work, what should you do?",
+"options": ["Hide it", "Blame others", "Admit and correct it", "Ignore it"],
+"answer": "Admit and correct it",
+"test_type": "communication"
+},
+{
+"question": "What is the purpose of HR round?",
+"options": ["Check coding skills", "Evaluate personality and communication", "See your marksheet", "Give salary immediately"],
+"answer": "Evaluate personality and communication",
+"test_type": "communication"
+},
+{
+"question": "How do you answer ‘Where do you see yourself in 5 years?’",
+"options": ["Say you don't know", "Share a clear career growth plan", "Talk about travel", "Say you want to leave India"],
+"answer": "Share a clear career growth plan",
+"test_type": "communication"
+},
+{
+"question": "How to communicate if you disagree with someone?",
+"options": ["Say ‘You are wrong’ directly", "Use polite language with logic", "Ignore them", "Get angry"],
+"answer": "Use polite language with logic",
+"test_type": "communication"
+},
+{
+"question": "How do you respond if interviewer asks a tricky question?",
+"options": ["Guess", "Ask for clarification politely", "Stay silent", "Laugh"],
+"answer": "Ask for clarification politely",
+"test_type": "communication"
+},
+{
+"question": "Which communication skill helps in email writing?",
+"options": ["Grammar and clarity", "Shouting", "Short forms", "Emojis"],
+"answer": "Grammar and clarity",
+"test_type": "communication"
+},
+{
+"question": "What kind of questions should you ask at the end of interview?",
+"options": ["Salary details only", "Company and role-related questions", "Personal questions", "Unrelated questions"],
+"answer": "Company and role-related questions",
+"test_type": "communication"
+},
+{
+"question": "How do you respond if HR asks about relocation?",
+"options": ["Say no immediately", "Explain your preference politely", "Lie", "Argue"],
+"answer": "Explain your preference politely",
+"test_type": "communication"
+},
+{
+"question": "How to handle rude customers/clients?",
+"options": ["Shout back", "Stay professional and calm", "Disconnect call", "Ignore them"],
+"answer": "Stay professional and calm",
+"test_type": "communication"
+},
+{
+"question": "What is the most important communication tool in workplace?",
+"options": ["Rumors", "Email", "Arguments", "Silence"],
+"answer": "Email",
+"test_type": "communication"
+},
+{
+"question": "What should you avoid in a professional email?",
+"options": ["Formal tone", "Clear subject line", "Slang and emojis", "Proper greeting"],
+"answer": "Slang and emojis",
+"test_type": "communication"
+},
+{
+"question": "How do you respond to ‘What motivates you?’",
+"options": ["Money only", "Learning and growth", "Showing off", "Nothing motivates me"],
+"answer": "Learning and growth",
+"test_type": "communication"
+},
+{
+"question": "How to show leadership in a team?",
+"options": ["Boss others", "Encourage and guide team", "Blame teammates", "Work alone"],
+"answer": "Encourage and guide team",
+"test_type": "communication"
+},
+{
+"question": "How to answer salary expectation question?",
+"options": ["Give random number", "Say ‘As per company standards’", "Say you want very high salary", "Avoid answering"],
+"answer": "Say ‘As per company standards’",
+"test_type": "communication"
+},
+{
+"question": "What should you do if you are late to interview?",
+"options": ["Lie about reason", "Inform interviewer early and apologize", "Ignore it", "Go home"],
+"answer": "Inform interviewer early and apologize",
+"test_type": "communication"
+},
+{
+"question": "How does body language affect communication?",
+"options": ["Helps express confidence", "No effect", "Only words matter", "Makes communication slow"],
+"answer": "Helps express confidence",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to solve a team disagreement?",
+"options": ["Mutual discussion", "Shouting", "Ignoring issue", "Choosing one person's opinion"],
+"answer": "Mutual discussion",
+"test_type": "communication"
+},
+{
+"question": "How do you show professionalism?",
+"options": ["Being rude", "Being punctual and respectful", "Arguing often", "Talking casually"],
+"answer": "Being punctual and respectful",
+"test_type": "communication"
+},
+{
+"question": "What should you say if asked about gaps in education?",
+"options": ["Hide it", "Explain honestly with reason", "Lie", "Blame others"],
+"answer": "Explain honestly with reason",
+"test_type": "communication"
+},
+{
+"question": "How to build trust with colleagues?",
+"options": ["Hide information", "Communicate openly", "Avoid teamwork", "Be rude"],
+"answer": "Communicate openly",
+"test_type": "communication"
+},
+{
+"question": "Which expression is best during interview?",
+"options": ["Serious face", "Smile lightly", "Laugh loudly", "No expression"],
+"answer": "Smile lightly",
+"test_type": "communication"
+},
+{
+"question": "What is essential for negotiation?",
+"options": ["Anger", "Clarity and patience", "Fast talking", "Interruptions"],
+"answer": "Clarity and patience",
+"test_type": "communication"
+},
+{
+"question": "How to talk to someone who is upset?",
+"options": ["Avoid them", "Speak rudely", "Talk politely and understand their concern", "Blame them"],
+"answer": "Talk politely and understand their concern",
+"test_type": "communication"
+},
+{
+"question": "How do you handle a situation when your teammate disagrees with you?",
+"options": ["Ignore them", "Discuss calmly and understand their point", "Force them to accept your idea", "Report immediately"],
+"answer": "Discuss calmly and understand their point",
+"test_type": "communication"
+},
+{
+"question": "What should you do before speaking in a meeting?",
+"options": ["Think and speak clearly", "Interrupt others", "Speak without planning", "Avoid speaking"],
+"answer": "Think and speak clearly",
+"test_type": "communication"
+},
+{
+"question": "How do you politely disagree in professional communication?",
+"options": ["You are wrong", "I completely disagree", "I see your point, but I have a different perspective", "That’s useless"],
+"answer": "I see your point, but I have a different perspective",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to end a professional email?",
+"options": ["Thank you, Regards", "Bye", "Ok done", "No ending"],
+"answer": "Thank you, Regards",
+"test_type": "communication"
+},
+{
+"question": "What should you avoid in interviews?",
+"options": ["Talking politely", "Speaking confidently", "Negative body language", "Good posture"],
+"answer": "Negative body language",
+"test_type": "communication"
+},
+{
+"question": "How do you talk if interviewers ask unexpected questions?",
+"options": ["Panic", "Ask for a moment, then answer calmly", "Stay silent", "Laugh"],
+"answer": "Ask for a moment, then answer calmly",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to describe your project in interview?",
+"options": ["Explain clearly with your contribution", "Explain everything in long stories", "Talk about unrelated topics", "Say you forgot"],
+"answer": "Explain clearly with your contribution",
+"test_type": "communication"
+},
+{
+"question": "What indicates good listening?",
+"options": ["Interrupting often", "Maintaining eye contact and nodding", "Looking at phone", "Talking over others"],
+"answer": "Maintaining eye contact and nodding",
+"test_type": "communication"
+},
+{
+"question": "If interviewer asks about your failures, what should you say?",
+"options": ["I never fail", "Blame others", "Share failure and what you learned", "Avoid answering"],
+"answer": "Share failure and what you learned",
+"test_type": "communication"
+},
+{
+"question": "How do you react if you don't understand a question?",
+"options": ["Guess the answer", "Ask them to repeat politely", "Say nothing", "Give random answer"],
+"answer": "Ask them to repeat politely",
+"test_type": "communication"
+},
+{
+"question": "How can you show interest in the job?",
+"options": ["Ask smart questions", "Stay silent", "Check phone", "Leave early"],
+"answer": "Ask smart questions",
+"test_type": "communication"
+},
+{
+"question": "What is the best tone for professional communication?",
+"options": ["Aggressive", "Formal and neutral", "Casual", "Sarcastic"],
+"answer": "Formal and neutral",
+"test_type": "communication"
+},
+{
+"question": "If you get nervous during presentation, what should you do?",
+"options": ["Stop presenting", "Breathe and continue confidently", "Run away", "Ignore the audience"],
+"answer": "Breathe and continue confidently",
+"test_type": "communication"
+},
+{
+"question": "How do you show respect to seniors in workplace?",
+"options": ["Interrupt them", "Listen and respond politely", "Ignore their suggestions", "Talk informally"],
+"answer": "Listen and respond politely",
+"test_type": "communication"
+},
+{
+"question": "Which skill helps in customer support roles?",
+"options": ["Short temper", "Empathy and clarity", "Avoiding calls", "Shouting loudly"],
+"answer": "Empathy and clarity",
+"test_type": "communication"
+},
+{
+"question": "What should you do if a team member is not contributing?",
+"options": ["Insult them", "Talk to them privately and motivate", "Complain instantly", "Do nothing"],
+"answer": "Talk to them privately and motivate",
+"test_type": "communication"
+},
+{
+"question": "What does ‘open communication’ mean?",
+"options": ["Sharing clearly and honestly", "Keeping secrets", "Talking aggressively", "Avoiding discussions"],
+"answer": "Sharing clearly and honestly",
+"test_type": "communication"
+},
+{
+"question": "How do you handle multitasking?",
+"options": ["Do all tasks at once", "Prioritize tasks with planning", "Panic", "Avoid work"],
+"answer": "Prioritize tasks with planning",
+"test_type": "communication"
+},
+{
+"question": "How do you prove you’re a team player?",
+"options": ["Take credit alone", "Collaborate and help others", "Avoid team meetings", "Blame teammates"],
+"answer": "Collaborate and help others",
+"test_type": "communication"
+},
+{
+"question": "How should you respond to HR asking ‘Tell me about your strengths’?",
+"options": ["Share 2–3 real strengths with examples", "Say you are perfect", "Say you have no strengths", "Avoid answering"],
+"answer": "Share 2–3 real strengths with examples",
+"test_type": "communication"
+},
+{
+"question": "What is a common mistake in communication?",
+"options": ["Listening well", "Interrupting others", "Clarifying doubts", "Using polite tone"],
+"answer": "Interrupting others",
+"test_type": "communication"
+},
+{
+"question": "If there is a language barrier, what should you do?",
+"options": ["Get frustrated", "Speak slowly and clearly", "Stop talking", "Switch to slang"],
+"answer": "Speak slowly and clearly",
+"test_type": "communication"
+},
+{
+"question": "How do you close a professional conversation?",
+"options": ["Thanks, looking forward", "Bye", "Ok", "Leave silently"],
+"answer": "Thanks, looking forward",
+"test_type": "communication"
+},
+{
+"question": "What shows that you are confident in an interview?",
+"options": ["Good posture and clarity", "Speaking too fast", "Nervous movements", "Avoiding questions"],
+"answer": "Good posture and clarity",
+"test_type": "communication"
+},
+{
+"question": "How do you answer ‘Describe a challenge you faced’?",
+"options": ["Share failure only", "Explain situation and how you solved it", "Blame team", "Avoid question"],
+"answer": "Explain situation and how you solved it",
+"test_type": "communication"
+},
+{
+"question": "What helps in effective decision-making?",
+"options": ["Random choices", "Gathering information", "Avoiding input", "Guessing"],
+"answer": "Gathering information",
+"test_type": "communication"
+},
+{
+"question": "Which is important in written communication?",
+"options": ["Grammar and clarity", "Emojis", "Slang", "Shortcuts"],
+"answer": "Grammar and clarity",
+"test_type": "communication"
+},
+{
+"question": "How do you show enthusiasm in an interview?",
+"options": ["Express interest in role", "Stay silent", "Look bored", "Complain"],
+"answer": "Express interest in role",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to handle feedback?",
+"options": ["Accept and improve", "Argue", "Ignore", "Take it personally"],
+"answer": "Accept and improve",
+"test_type": "communication"
+},
+{
+"question": "What improves clarity in communication?",
+"options": ["Using complex words", "Speaking too fast", "Simple and direct sentences", "Long stories"],
+"answer": "Simple and direct sentences",
+"test_type": "communication"
+},
+{
+"question": "What is the most important part of answering ‘Tell me about yourself’?",
+"options": ["Talking about childhood", "Sharing professional summary", "Giving long personal stories", "Telling unrelated details"],
+"answer": "Sharing professional summary",
+"test_type": "communication"
+},
+{
+"question": "How do you show professionalism in online interviews?",
+"options": ["Sit properly with clean background", "Attend from bed", "Keep camera off", "Talk casually"],
+"answer": "Sit properly with clean background",
+"test_type": "communication"
+},
+{
+"question": "How should you react if your interviewer is rude?",
+"options": ["Respond politely", "Be rude back", "Argue strongly", "Leave immediately"],
+"answer": "Respond politely",
+"test_type": "communication"
+},
+{
+"question": "What is the best way to express disagreement politely?",
+"options": ["I understand, but I have a different view", "You are wrong", "That idea is bad", "No, I don't agree"],
+"answer": "I understand, but I have a different view",
+"test_type": "communication"
+},
+{
+"question": "Why do interviewers ask about your weaknesses?",
+"options": ["To reject you", "To see self-awareness", "To embarrass you", "To test memory"],
+"answer": "To see self-awareness",
+"test_type": "communication"
+},
+{
+"question": "Which of these is a STAR method used in interviews?",
+"options": ["Situation, Task, Action, Result", "Start Talking And Respond", "Speak, Test, Answer, Repeat", "Simple Technique And Response"],
+"answer": "Situation, Task, Action, Result",
+"test_type": "communication"
+},
+{
+"question": "What is the essential quality for client interaction roles?",
+"options": ["Clear communication", "Short temper", "Slang usage", "Avoiding calls"],
+"answer": "Clear communication",
+"test_type": "communication"
+},
+{
+"question": "How to show confidence when speaking?",
+"options": ["Strong tone and clarity", "Very loud voice", "Shouting", "Talking too fast"],
+"answer": "Strong tone and clarity",
+"test_type": "communication"
+},
+{
+"question": "What should you do when giving instructions?",
+"options": ["Be clear and step-by-step", "Talk confusingly", "Assume they know everything", "Skip important details"],
+"answer": "Be clear and step-by-step",
+"test_type": "communication"
+},
+{
+"question": "What is an example of active listening?",
+"options": ["Nodding and summarising", "Interrupting", "Looking away", "Thinking about other things"],
+"answer": "Nodding and summarising",
+"test_type": "communication"
+},
+{
+"question": "What improves communication in a team?",
+"options": ["Regular updates", "Keeping secrets", "Avoid talking", "Assuming things"],
+"answer": "Regular updates",
+"test_type": "communication"
+},
+{
+"question": "How do you handle criticism in the workplace?",
+"options": ["Listen and improve", "Argue", "Get angry", "Ignore it"],
+"answer": "Listen and improve",
+"test_type": "communication"
+},
+{
+"question": "What makes a meeting effective?",
+"options": ["Agenda and time management", "Long discussions", "Talking randomly", "Letting people interrupt"],
+"answer": "Agenda and time management",
+"test_type": "communication"
+},
+{
+"question": "How should you speak when explaining a technical concept?",
+"options": ["Use simple clear language", "Use only jargon", "Speak too fast", "Speak aggressively"],
+"answer": "Use simple clear language",
+"test_type": "communication"
+},
+{
+"question": "What helps build trust in communication?",
+"options": ["Honesty and consistency", "Ignoring people", "Talking rudely", "Changing answers"],
+"answer": "Honesty and consistency",
+"test_type": "communication"
+},
+{
+"question": "What should you avoid during a presentation?",
+"options": ["Reading slides completely", "Engaging with audience", "Maintaining eye contact", "Explaining clearly"],
+"answer": "Reading slides completely",
+"test_type": "communication"
+},
+{
+"question": "What shows leadership in communication?",
+"options": ["Taking initiative and guiding team", "Avoiding decisions", "Letting others always decide", "Shouting orders"],
+"answer": "Taking initiative and guiding team",
+"test_type": "communication"
+},
+{
+"question": "Which body language is positive?",
+"options": ["Open posture", "Crossed arms", "Looking down", "Frowning"],
+"answer": "Open posture",
+"test_type": "communication"
+},
+{
+"question": "How do you talk to a frustrated client?",
+"options": ["Stay calm and listen", "Shout back", "End the call", "Ignore them"],
+"answer": "Stay calm and listen",
+"test_type": "communication"
+},
+{
+"question": "What should you do before answering any interview question?",
+"options": ["Listen fully and think", "Interrupt", "Guess the question", "Talk immediately"],
+"answer": "Listen fully and think",
+"test_type": "communication"
+}
+]
