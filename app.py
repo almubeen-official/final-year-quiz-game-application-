@@ -1,30 +1,41 @@
-from flask import Flask, render_template, request, redirect, session, url_for
-import sqlite3, os, json, random
+from flask import Flask, render_template, request, redirect, session
+import sqlite3, os, json
 
 app = Flask(__name__)
 app.secret_key = "quiz_secret_key"
 
-# ---------- DATABASE ----------
+# ---------------- DATABASE ---------------- #
+
 def get_db():
     return sqlite3.connect("database.db")
 
+
 def init_db():
+
     if not os.path.exists("database.db"):
+
         db = get_db()
         cur = db.cursor()
 
+        # STUDENTS TABLE
         cur.execute("""
             CREATE TABLE students (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 name TEXT,
-                email TEXT
+                rollno TEXT,
+                class TEXT,
+                department TEXT
             )
         """)
 
+        # RESULTS TABLE
         cur.execute("""
             CREATE TABLE results (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
                 student_name TEXT,
+                rollno TEXT,
+                class TEXT,
+                department TEXT,
                 subject TEXT,
                 score INTEGER,
                 total INTEGER
@@ -34,102 +45,199 @@ def init_db():
         db.commit()
         db.close()
 
+
 init_db()
 
-# ---------- LOAD QUESTIONS ----------
-def load_questions(subject):
-    with open(f"questions/{subject}.json", "r", encoding="utf-8") as f:
-        return json.load(f)
+# ---------------- DASHBOARD ---------------- #
 
-# ---------- ROUTES ----------
 @app.route("/")
 def dashboard():
     return render_template("dashboard.html")
 
+
+# ---------------- REGISTER ---------------- #
+
 @app.route("/register", methods=["GET", "POST"])
 def register():
-    if request.method == "POST":
-        name = request.form["name"]
-        email = request.form["email"]
 
+    if request.method == "POST":
+
+        student = {
+            "rollno": request.form["rollno"],
+            "name": request.form["name"],
+            "class": request.form["classname"],
+            "department": request.form["department"]
+        }
+
+        # 🔥 SAVE SESSION
+        session["student"] = student["name"]
+        session["student_data"] = student
+
+        # ---------- SAVE JSON ----------
+        if not os.path.exists("data/students.json"):
+            with open("data/students.json", "w") as f:
+                json.dump([], f)
+
+        with open("data/students.json", "r") as f:
+            students = json.load(f)
+
+        students.append(student)
+
+        with open("data/students.json", "w") as f:
+            json.dump(students, f, indent=4)
+
+        # ---------- SAVE DB ----------
         db = get_db()
         cur = db.cursor()
-        cur.execute("INSERT INTO students (name, email) VALUES (?,?)", (name, email))
+
+        cur.execute("""
+            INSERT INTO students (name, rollno, class, department)
+            VALUES (?, ?, ?, ?)
+        """, (
+            student["name"],
+            student["rollno"],
+            student["class"],
+            student["department"]
+        ))
+
         db.commit()
         db.close()
-
-        session.clear()
-        session["student"] = name
-        session["used_questions"] = {}
 
         return redirect("/options")
 
     return render_template("register.html")
 
+
+# ---------------- OPTIONS ---------------- #
+
 @app.route("/options")
 def options():
+
     if "student" not in session:
         return redirect("/")
+
     return render_template("options.html")
+
+
+# ---------------- QUIZ ---------------- #
 
 @app.route("/quiz/<subject>", methods=["GET", "POST"])
 def quiz(subject):
+
     if "student" not in session:
         return redirect("/")
 
-    all_questions = load_questions(subject)
+    # LOAD QUESTIONS
+    with open(f"questions/{subject}.json", "r", encoding="utf-8") as f:
+        questions = json.load(f)
 
-    used = session.get("used_questions", {}).get(subject, [])
-    if len(used) >= len(all_questions):
-        used = []
+    # SELECT 25 QUESTIONS
+    if "current_questions" not in session:
+        selected = questions[:25]
+        session["current_questions"] = selected
+    else:
+        selected = session["current_questions"]
 
-    available = [q for i, q in enumerate(all_questions) if i not in used]
-    selected = random.sample(available, min(25, len(available)))
-
-    session["current_questions"] = selected
-    session["used_questions"][subject] = used + [all_questions.index(q) for q in selected]
-    session.modified = True
-
+    # ---------- SUBMIT ----------
     if request.method == "POST":
+
         score = 0
-        for i, q in enumerate(session["current_questions"]):
+
+        for i, q in enumerate(selected):
             if request.form.get(f"q{i}") == q["answer"]:
                 score += 1
 
+        # GET STUDENT DATA
+        student = session.get("student_data")
+
+        if not student:
+            student = {
+                "name": session.get("student", "Unknown"),
+                "rollno": "N/A",
+                "class": "N/A",
+                "department": "N/A"
+            }
+
+        # ---------- SAVE RESULT JSON ----------
+        result = {
+            "name": student["name"],
+            "rollno": student["rollno"],
+            "class": student["class"],
+            "department": student["department"],
+            "subject": subject,
+            "score": score,
+            "total": len(selected)
+        }
+
+        if not os.path.exists("data/results.json"):
+            with open("data/results.json", "w") as f:
+                json.dump([], f)
+
+        with open("data/results.json", "r") as f:
+            results = json.load(f)
+
+        results.append(result)
+
+        with open("data/results.json", "w") as f:
+            json.dump(results, f, indent=4)
+
+        # ---------- SAVE RESULT DB ----------
         db = get_db()
         cur = db.cursor()
+
         cur.execute("""
-            INSERT INTO results (student_name, subject, score, total)
-            VALUES (?,?,?,?)
-        """, (session["student"], subject, score, len(session["current_questions"])))
+            INSERT INTO results
+            (student_name, rollno, class, department, subject, score, total)
+            VALUES (?, ?, ?, ?, ?, ?, ?)
+        """, (
+            student["name"],
+            student["rollno"],
+            student["class"],
+            student["department"],
+            subject,
+            score,
+            len(selected)
+        ))
+
         db.commit()
         db.close()
 
+        session.pop("current_questions", None)
+
         return render_template(
             "result.html",
-            subject=subject.capitalize(),
             score=score,
-            total=len(session["current_questions"])
+            total=len(selected),
+            student=student
         )
 
+    # SHOW QUIZ
     return render_template(
         "quiz.html",
-        subject=subject.capitalize(),
         questions=selected,
-        duration=600
+        subject=subject
     )
 
-# ---------- STAFF ----------
+
+# ---------------- STAFF LOGIN ---------------- #
+
 @app.route("/staff", methods=["GET", "POST"])
 def staff_login():
+
     if request.method == "POST":
+
         if request.form["username"] == "staff" and request.form["password"] == "jmc":
             session["staff"] = True
             return redirect("/staff/dashboard")
+
     return render_template("staff_login.html")
+
+
+# ---------------- STAFF DASHBOARD ---------------- #
 
 @app.route("/staff/dashboard")
 def staff_dashboard():
+
     if not session.get("staff"):
         return redirect("/staff")
 
@@ -154,23 +262,36 @@ def staff_dashboard():
         total_attended=total_attended
     )
 
+
+# ---------------- DELETE ---------------- #
+
 @app.route("/delete/student/<int:id>")
 def delete_student(id):
+
     db = get_db()
     cur = db.cursor()
+
     cur.execute("DELETE FROM students WHERE id=?", (id,))
     db.commit()
     db.close()
+
     return redirect("/staff/dashboard")
+
 
 @app.route("/delete/result/<int:id>")
 def delete_result(id):
+
     db = get_db()
     cur = db.cursor()
+
     cur.execute("DELETE FROM results WHERE id=?", (id,))
     db.commit()
     db.close()
+
     return redirect("/staff/dashboard")
+
+
+# ---------------- RUN ---------------- #
 
 if __name__ == "__main__":
     app.run(debug=True)
