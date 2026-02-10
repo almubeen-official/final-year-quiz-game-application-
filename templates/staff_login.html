@@ -2,16 +2,51 @@
 <html>
 <head>
     <title>Staff Login</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-<div class="container">
-    <h1>Staff Login</h1>
-    <form method="post">
-        <input type="text" name="username" placeholder="Username">
-        <input type="password" name="password" placeholder="Password">
-        <button type="submit">Login</button>
-    </form>
+
+<div class="form-wrapper">
+
+    <div class="form-box">
+
+        <h2>Staff Login</h2>
+        <p class="form-subtitle">
+            Login to manage students and examination results
+        </p>
+
+        <form method="post">
+
+            <input type="text"
+                   name="username"
+                   placeholder="Enter Username"
+                   required>
+
+            <input type="password"
+                   name="password"
+                   placeholder="Enter Password"
+                   required>
+
+            <button type="submit">
+                Login
+            </button>
+
+        </form>
+
+        <!-- BACK BUTTON -->
+        <div style="margin-top:15px;">
+            <a href="/"
+               class="role-btn staff">
+               Back to Dashboard
+            </a>
+        </div>
+
+    </div>
+
 </div>
+
 </body>
 </html>
