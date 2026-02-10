@@ -2,17 +2,70 @@
 <html>
 <head>
     <title>Quiz Options</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-<div class="container">
-    <h1>Quiz Options</h1>
 
-    <a href="/quiz/python">Python Quiz</a>
-    <a href="/quiz/communication">Communication Quiz</a>
-    <a href="/quiz/aptitude">Aptitude Quiz</a>
+<div class="dashboard-wrapper">
 
-    <a href="/" style="background:#6b7280;">Logout</a>
+    <div class="dashboard-box">
+
+        <h1>Quiz Options</h1>
+        <p class="subtitle">
+            Select a subject to start your examination
+        </p>
+
+        <div class="role-container">
+
+            <!-- PYTHON -->
+            <div class="role-card">
+                <h2>Python</h2>
+                <p>Programming fundamentals quiz</p>
+
+                <a href="/quiz/python"
+                   class="role-btn">
+                   Start Quiz
+                </a>
+            </div>
+
+            <!-- COMMUNICATION -->
+            <div class="role-card">
+                <h2>Communication</h2>
+                <p>English & verbal skills test</p>
+
+                <a href="/quiz/communication"
+                   class="role-btn">
+                   Start Quiz
+                </a>
+            </div>
+
+            <!-- APTITUDE -->
+            <div class="role-card">
+                <h2>Aptitude</h2>
+                <p>Logical & quantitative test</p>
+
+                <a href="/quiz/aptitude"
+                   class="role-btn">
+                   Start Quiz
+                </a>
+            </div>
+
+        </div>
+
+        <!-- LOGOUT -->
+        <div style="margin-top:30px;">
+            <a href="/"
+               class="role-btn staff">
+               Logout
+            </a>
+        </div>
+
+    </div>
+
 </div>
+
 </body>
 </html>
