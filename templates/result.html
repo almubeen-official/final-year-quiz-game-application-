@@ -1,16 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Result</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Exam Result</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>{{ subject }} Result</h1>
-    <h3>Score: {{ score }} / {{ total }}</h3>
+<div class="dashboard-wrapper">
 
-    <a href="/options">Back to Quiz Options</a>
+    <div class="dashboard-box result-box">
+
+        <h1>Exam Result</h1>
+        <p class="subtitle">Online Examination Summary</p>
+
+        <!-- SCORE -->
+        <div class="score-circle">
+            {{ score }} / {{ total }}
+        </div>
+
+        <!-- STUDENT DETAILS -->
+        <div class="result-details">
+
+            <p><strong>Name:</strong> {{ student.name }}</p>
+            <p><strong>Roll No:</strong> {{ student.rollno }}</p>
+            <p><strong>Class:</strong> {{ student.class }}</p>
+            <p><strong>Department:</strong> {{ student.department }}</p>
+
+        </div>
+
+        <div style="margin-top:25px;">
+
+            <a href="/options" class="role-btn">
+                Back to Quiz Options
+            </a>
+
+            <a href="/" class="role-btn staff">
+                Logout
+            </a>
+
+        </div>
+
+    </div>
+
 </div>
 
 </body>
