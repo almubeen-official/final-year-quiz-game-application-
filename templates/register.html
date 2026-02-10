@@ -1,17 +1,54 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Register</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Student Registration</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
-<div class="container">
-    <h1>Student Registration</h1>
-    <form method="post">
-        <input type="text" name="name" placeholder="Enter Name" required>
-        <input type="email" name="email" placeholder="Enter Email" required>
-        <button type="submit">Register</button>
-    </form>
+
+<div class="form-wrapper">
+
+    <div class="form-box">
+
+        <h2>Student Registration</h2>
+        <p class="form-subtitle">
+            Register to attend the online examination
+        </p>
+
+        <form method="post">
+
+            <input type="text"
+                   name="rollno"
+                   placeholder="Enter Roll Number"
+                   required>
+
+            <input type="text"
+                   name="name"
+                   placeholder="Enter Name"
+                   required>
+
+            <input type="text"
+                   name="classname"
+                   placeholder="Enter Class"
+                   required>
+
+            <input type="text"
+                   name="department"
+                   placeholder="Enter Department"
+                   required>
+
+            <button type="submit">
+                Register
+            </button>
+
+        </form>
+
+    </div>
+
 </div>
+
 </body>
 </html>
