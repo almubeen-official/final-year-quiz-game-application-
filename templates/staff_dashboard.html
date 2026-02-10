@@ -2,46 +2,76 @@
 <html>
 <head>
     <title>Staff Dashboard</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Staff Dashboard</h1>
+<div class="dashboard-wrapper">
 
-    <h3>Total Students Attended Exam: {{ total_attended }}</h3>
+    <div class="dashboard-box">
 
-    <h3>Student Register Details</h3>
-    <table>
-        <tr><th>Name</th><th>Email</th><th>Delete</th></tr>
-        {% for s in students %}
-        <tr>
-            <td>{{ s[1] }}</td>
-            <td>{{ s[2] }}</td>
-            <td><a href="/delete/student/{{ s[0] }}" style="background:red;">Delete</a></td>
-        </tr>
-        {% endfor %}
-    </table>
+        <h1>Staff Dashboard</h1>
+        <p class="subtitle">
+            Manage students and examination results
+        </p>
 
-    <h3>Exam Results</h3>
-    <table>
-        <tr>
-            <th>Student</th>
-            <th>Subject</th>
-            <th>Score</th>
-            <th>Total</th>
-            <th>Delete</th>
-        </tr>
-        {% for r in results %}
-        <tr>
-            <td>{{ r[1] }}</td>
-            <td>{{ r[2] }}</td>
-            <td>{{ r[3] }}</td>
-            <td>{{ r[4] }}</td>
-            <td><a href="/delete/result/{{ r[0] }}" style="background:red;">Delete</a></td>
-        </tr>
-        {% endfor %}
-    </table>
+        <!-- TOTAL ATTENDED -->
+        <div class="stats-box">
+            Total Students Attended Exam :
+            <strong>{{ total_attended }}</strong>
+        </div>
+
+      
+<h2 class="table-title">Exam Results</h2>
+
+<table class="styled-table">
+
+    <tr>
+        <th>Name</th>
+        <th>Roll No</th>
+        <th>Class</th>
+        <th>Department</th>
+        <th>Subject</th>
+        <th>Score</th>
+        <th>Total</th>
+        <th>Action</th>
+    </tr>
+
+    {% for r in results %}
+    <tr>
+
+        <td>{{ r[1] }}</td>   <!-- Name -->
+        <td>{{ r[2] }}</td>   <!-- Rollno -->
+        <td>{{ r[3] }}</td>   <!-- Class -->
+        <td>{{ r[4] }}</td>   <!-- Department -->
+        <td>{{ r[5] }}</td>   <!-- Subject -->
+        <td>{{ r[6] }}</td>   <!-- Score -->
+        <td>{{ r[7] }}</td>   <!-- Total -->
+
+        <td>
+            <a href="/delete/result/{{ r[0] }}"
+               class="delete-btn">
+               Delete
+            </a>
+        </td>
+
+    </tr>
+    {% endfor %}
+
+</table>
+
+        <!-- LOGOUT -->
+        <div style="margin-top:30px;">
+            <a href="/"
+               class="role-btn staff">
+               Logout
+            </a>
+        </div>
+
+    </div>
 
 </div>
 
