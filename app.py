@@ -1,5 +1,5 @@
 from flask import Flask, render_template, request, redirect, session
-import sqlite3, os, json
+import sqlite3, os, json, random
 
 app = Flask(__name__)
 app.secret_key = "quiz_secret_key"
@@ -17,7 +17,6 @@ def init_db():
         db = get_db()
         cur = db.cursor()
 
-        # STUDENTS TABLE
         cur.execute("""
             CREATE TABLE students (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -28,7 +27,6 @@ def init_db():
             )
         """)
 
-        # RESULTS TABLE
         cur.execute("""
             CREATE TABLE results (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -69,24 +67,10 @@ def register():
             "department": request.form["department"]
         }
 
-        # 🔥 SAVE SESSION
         session["student"] = student["name"]
         session["student_data"] = student
 
-        # ---------- SAVE JSON ----------
-        if not os.path.exists("data/students.json"):
-            with open("data/students.json", "w") as f:
-                json.dump([], f)
-
-        with open("data/students.json", "r") as f:
-            students = json.load(f)
-
-        students.append(student)
-
-        with open("data/students.json", "w") as f:
-            json.dump(students, f, indent=4)
-
-        # ---------- SAVE DB ----------
+        # SAVE DB
         db = get_db()
         cur = db.cursor()
 
@@ -117,105 +101,72 @@ def options():
         return redirect("/")
 
     return render_template("options.html")
-
-
-# ---------------- QUIZ ---------------- #
-
 @app.route("/quiz/<subject>", methods=["GET", "POST"])
 def quiz(subject):
-
     if "student" not in session:
         return redirect("/")
 
-    # LOAD QUESTIONS
+    # 1. LOAD ALL QUESTIONS FIRST
     with open(f"questions/{subject}.json", "r", encoding="utf-8") as f:
         questions = json.load(f)
 
-    # SELECT 25 QUESTIONS
-    if "current_questions" not in session:
-        selected = questions[:25]
-        session["current_questions"] = selected
-    else:
-        selected = session["current_questions"]
+    # 2. GET SELECTED INDEXES FROM SESSION
+    if request.method == "GET":
+        session.pop("question_indexes", None)
+        indexes = random.sample(
+            range(len(questions)),
+            min(30, len(questions))
+        )
+        session["question_indexes"] = indexes
+    
+    # Always get indexes for both GET and POST
+    indexes = session.get("question_indexes", [])
+    selected = [questions[i] for i in indexes]
 
-    # ---------- SUBMIT ----------
+    # 3. ---------- SUBMIT LOGIC ----------
     if request.method == "POST":
-
         score = 0
+        student_data = session.get("student_data")
 
+        # Score Calculation
         for i, q in enumerate(selected):
-            if request.form.get(f"q{i}") == q["answer"]:
+            user_ans = request.form.get(f"q{i}")
+            if user_ans == q["answer"]:
                 score += 1
 
-        # GET STUDENT DATA
-        student = session.get("student_data")
-
-        if not student:
-            student = {
-                "name": session.get("student", "Unknown"),
-                "rollno": "N/A",
-                "class": "N/A",
-                "department": "N/A"
-            }
-
-        # ---------- SAVE RESULT JSON ----------
-        result = {
-            "name": student["name"],
-            "rollno": student["rollno"],
-            "class": student["class"],
-            "department": student["department"],
-            "subject": subject,
-            "score": score,
-            "total": len(selected)
-        }
-
-        if not os.path.exists("data/results.json"):
-            with open("data/results.json", "w") as f:
-                json.dump([], f)
-
-        with open("data/results.json", "r") as f:
-            results = json.load(f)
-
-        results.append(result)
-
-        with open("data/results.json", "w") as f:
-            json.dump(results, f, indent=4)
-
-        # ---------- SAVE RESULT DB ----------
+        # SAVE TO DATABASE (Idhu dhaan missing-ah irundhuchi)
         db = get_db()
         cur = db.cursor()
-
         cur.execute("""
-            INSERT INTO results
-            (student_name, rollno, class, department, subject, score, total)
+            INSERT INTO results (student_name, rollno, class, department, subject, score, total)
             VALUES (?, ?, ?, ?, ?, ?, ?)
         """, (
-            student["name"],
-            student["rollno"],
-            student["class"],
-            student["department"],
-            subject,
+            student_data["name"],
+            student_data["rollno"],
+            student_data["class"],
+            student_data["department"],
+            subject.capitalize(),
             score,
             len(selected)
         ))
-
         db.commit()
         db.close()
 
-        session.pop("current_questions", None)
-
+        # Render result page with all data
         return render_template(
             "result.html",
             score=score,
             total=len(selected),
-            student=student
+            student=student_data,
+            subject=subject.capitalize()
         )
 
-    # SHOW QUIZ
+    # 4. ---------- RENDER QUIZ PAGE (GET) ----------
     return render_template(
         "quiz.html",
         questions=selected,
-        subject=subject
+        subject=subject,
+        duration=600
     )
 
 
