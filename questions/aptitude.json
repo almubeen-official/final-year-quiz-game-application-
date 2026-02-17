@@ -884,5 +884,589 @@
   "answer": "11.11%",
   "test_type": "aptitude"
 }
+,
+{
+    "question": "If the day after tomorrow is Sunday, what day was it yesterday?",
+    "options": ["Wednesday", "Thursday", "Friday", "Saturday"],
+    "answer": "Wednesday",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A fruit seller had some apples. He sells 40% apples and still has 420 apples. How many apples he had originally?",
+    "options": ["588", "600", "672", "700"],
+    "answer": "700",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the missing number in the series: 1, 4, 9, 16, 25, 36, ?",
+    "options": ["42", "45", "49", "52"],
+    "answer": "49",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 5 spiders can catch 5 flies in 5 minutes, how many spiders are needed to catch 100 flies in 100 minutes?",
+    "options": ["1", "5", "20", "100"],
+    "answer": "5",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The total age of A and B is 12 years more than the total age of B and C. C is how many years younger than A?",
+    "options": ["12", "14", "24", "Data inadequate"],
+    "answer": "12",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 'WATER' is coded as 'XBUFS', how is 'BLOOD' coded?",
+    "options": ["CMPPE", "CMNPE", "CMMPE", "CMPPF"],
+    "answer": "CMPPE",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the average of first 40 natural numbers.",
+    "options": ["20.25", "20.5", "21", "21.5"],
+    "answer": "20.5",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which of the following is a leap year?",
+    "options": ["1900", "1994", "2002", "2004"],
+    "answer": "2004",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A person crosses a 600m long street in 5 minutes. What is his speed in km/hr?",
+    "options": ["3.6", "7.2", "8.4", "10"],
+    "answer": "7.2",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "In a group of 15 people, 7 read French, 8 read English, while 3 of them read none. How many of them read both?",
+    "options": ["3", "4", "5", "2"],
+    "answer": "3",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the square root of 0.0009?",
+    "options": ["0.03", "0.3", "0.003", "3"],
+    "answer": "0.03",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man buys a cycle for ₹1400 and sells it at a loss of 15%. What is the selling price?",
+    "options": ["₹1090", "₹1160", "₹1190", "₹1202"],
+    "answer": "₹1190",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 1.125 × 10^k = 0.001125, then the value of k is:",
+    "options": ["-4", "-3", "-2", "-1"],
+    "answer": "-3",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A clock strikes once at 1 o'clock, twice at 2 o'clock, thrice at 3 o'clock and so on. How many times will it strike in 24 hours?",
+    "options": ["78", "136", "156", "196"],
+    "answer": "156",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Point out the odd one: 10, 25, 45, 54, 60, 75, 80",
+    "options": ["10", "45", "54", "75"],
+    "answer": "54",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The ratio 5:4 expressed as a percent equals:",
+    "options": ["12.5%", "40%", "80%", "125%"],
+    "answer": "125%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 20% of a = b, then b% of 20 is the same as:",
+    "options": ["4% of a", "5% of a", "20% of a", "None"],
+    "answer": "4% of a",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "How many seconds will a 500 meter long train take to cross a man walking with a speed of 3 km/hr in the direction of the moving train if the speed of the train is 63 km/hr?",
+    "options": ["25", "30", "40", "45"],
+    "answer": "30",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If a:b = 5:7 and b:c = 6:11, then a:b:c is:",
+    "options": ["30:42:77", "30:42:11", "5:7:11", "None"],
+    "answer": "30:42:77",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A shopkeeper cheats to the extent of 10% while buying as well as selling, by using false weights. His total gain is:",
+    "options": ["10%", "11%", "20%", "21%"],
+    "answer": "21%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the HCF of 2/3, 8/9, 10/27?",
+    "options": ["2/27", "8/27", "20/3", "None"],
+    "answer": "2/27",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A farmer built a fence around his square plot. He used 27 fence poles on each side of the square. How many poles did he need altogether?",
+    "options": ["100", "104", "108", "None"],
+    "answer": "104",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The value of (0.1)^2 is:",
+    "options": ["0.01", "0.1", "0.001", "0.02"],
+    "answer": "0.01",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the probability of getting an even number when a die is thrown?",
+    "options": ["1/6", "1/2", "1/3", "2/3"],
+    "answer": "1/2",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A sum of money at simple interest amounts to ₹815 in 3 years and to ₹854 in 4 years. The sum is:",
+    "options": ["₹650", "₹690", "₹698", "₹700"],
+    "answer": "₹698",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the odd man out: 3, 5, 7, 12, 17, 19",
+    "options": ["19", "17", "12", "7"],
+    "answer": "12",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The cube root of 0.000216 is:",
+    "options": ["0.6", "0.06", "0.006", "None"],
+    "answer": "0.06",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 12 men can reap a field in 8 days, in how many days can 16 men reap the same field?",
+    "options": ["4", "5", "6", "7"],
+    "answer": "6",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A bag contains 2 red, 3 green and 2 blue balls. Two balls are drawn at random. What is the probability that none of the balls drawn is blue?",
+    "options": ["10/21", "11/21", "2/7", "5/7"],
+    "answer": "10/21",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the next term: 2, 3, 5, 8, 13, 21, ?",
+    "options": ["29", "30", "32", "34"],
+    "answer": "34",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": ["120 m", "240 m", "300 m", "None"],
+    "answer": "240 m",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "3, 10, 101, ?",
+    "options": ["10101", "10201", "10202", "11012"],
+    "answer": "10202",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the compound interest on ₹16,000 at 20% per annum for 9 months, compounded quarterly.",
+    "options": ["₹2520", "₹2522", "₹2524", "₹2528"],
+    "answer": "2522",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 20% of x = 80, then 120% of x is:",
+    "options": ["200", "400", "480", "500"],
+    "answer": "480",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The cost price of 20 articles is the same as the selling price of x articles. If the profit is 25%, then the value of x is:",
+    "options": ["15", "16", "18", "25"],
+    "answer": "16",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The difference between a number and its three-fifth is 50. What is the number?",
+    "options": ["75", "100", "125", "None"],
+    "answer": "125",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which of the following is not a prime number?",
+    "options": ["31", "61", "71", "91"],
+    "answer": "91",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the odd one: 1, 8, 27, 64, 100, 125",
+    "options": ["8", "27", "100", "125"],
+    "answer": "100",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A tank can be filled by pipe A in 2 hours and pipe B in 6 hours. At 10 am, pipe A was opened. At what time will the tank be filled if pipe B is opened at 11 am?",
+    "options": ["11:45 am", "12:00 pm", "11:50 am", "12:05 pm"],
+    "answer": "11:45 am",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If x/y = 6/5, then (x^2 + y^2) / (x^2 - y^2) = ?",
+    "options": ["61/11", "11/61", "6/5", "5/6"],
+    "answer": "61/11",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The sum of the digits of a two-digit number is 15 and the difference between the digits is 3. What is the two-digit number?",
+    "options": ["69", "78", "96", "Cannot be determined"],
+    "answer": "Cannot be determined",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the average of first five multiples of 3?",
+    "options": ["3", "9", "12", "15"],
+    "answer": "9",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the simple interest on ₹7200 at 8% per annum for 10 months.",
+    "options": ["₹480", "₹500", "₹520", "₹540"],
+    "answer": "₹480",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If P = 50% of Q and Q = 50% of R, then P : R is:",
+    "options": ["1 : 2", "1 : 4", "1 : 1", "2 : 1"],
+    "answer": "1 : 4",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Simplify: 10.5 × 10.5 - 0.5 × 0.5",
+    "options": ["100", "110", "111", "None"],
+    "answer": "110",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If log 27 = 1.431, then the value of log 9 is:",
+    "options": ["0.934", "0.945", "0.954", "0.958"],
+    "answer": "0.954",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A boat can travel with a speed of 13 km/hr in still water. If the speed of the stream is 4 km/hr, find the time taken by the boat to go 68 km downstream.",
+    "options": ["2 hours", "3 hours", "4 hours", "5 hours"],
+    "answer": "4 hours",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the largest 4 digit number exactly divisible by 88.",
+    "options": ["9944", "9768", "9988", "8888"],
+    "answer": "9944",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 10 men can do a piece of work in 12 days, then how many men can do the same work in 20 days?",
+    "options": ["6", "7", "8", "9"],
+    "answer": "6",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the angle between the hour hand and the minute hand of a clock when the time is 3:25?",
+    "options": ["45.5°", "47.5°", "52.5°", "None"],
+    "answer": "47.5°",
+    "test_type": "aptitude"
+  }
+,
+  {
+    "question": "A man is 24 years older than his son. In two years, his age will be twice the age of his son. The present age of his son is:",
+    "options": ["14", "18", "20", "22"],
+    "answer": "22",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If a quarter kg of potato costs 60 paise, how many paise will 200g cost?",
+    "options": ["48 paise", "54 paise", "56 paise", "60 paise"],
+    "answer": "48 paise",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "In how many ways can the letters of the word 'APPLE' be arranged?",
+    "options": ["60", "120", "180", "240"],
+    "answer": "60",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The difference between a two-digit number and the number obtained by interchanging the positions of its digits is 36. What is the difference between the two digits of that number?",
+    "options": ["3", "4", "9", "None"],
+    "answer": "4",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which of the following numbers is divisible by 11?",
+    "options": ["4832718", "4823718", "8423718", "None"],
+    "answer": "4823718",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A student has to obtain 33% of the total marks to pass. He got 125 marks and failed by 40 marks. The maximum marks are:",
+    "options": ["300", "500", "800", "1000"],
+    "answer": "500",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the odd one out: 396, 462, 572, 427, 671",
+    "options": ["396", "427", "671", "462"],
+    "answer": "427",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 'ORANGE' is coded as 'PQSBIT', how is 'APPLE' coded?",
+    "options": ["BQQMF", "BPPLF", "BQQNF", "BRRMF"],
+    "answer": "BQQMF",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A can do a piece of work in 4 hours; B and C together can do it in 3 hours, while A and C together can do it in 2 hours. How long will B alone take to do it?",
+    "options": ["8 hours", "10 hours", "12 hours", "24 hours"],
+    "answer": "12 hours",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the probability of drawing a 'King' from a well-shuffled pack of 52 cards?",
+    "options": ["1/13", "1/26", "1/52", "4/13"],
+    "answer": "1/13",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the surface area of a cube whose edge is 5 cm.",
+    "options": ["125 cm²", "150 cm²", "100 cm²", "200 cm²"],
+    "answer": "150 cm²",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 7 : x = 17.5 : 22.5, then x is:",
+    "options": ["6", "7.5", "9", "12.5"],
+    "answer": "9",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man buys a toy for ₹100 and sells it for ₹120. What is his gain percentage?",
+    "options": ["10%", "20%", "25%", "30%"],
+    "answer": "20%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The speed of a boat in still water is 15 km/hr and the rate of stream is 3 km/hr. The distance travelled downstream in 12 minutes is:",
+    "options": ["1.2 km", "1.8 km", "2.4 km", "3.6 km"],
+    "answer": "3.6 km",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What least number must be added to 1056, so that the sum is completely divisible by 23?",
+    "options": ["2", "3", "18", "21"],
+    "answer": "2",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The average weight of 8 men is increased by 1.5 kg when one of the men, who weighs 65 kg, is replaced by a new man. The weight of the new man is:",
+    "options": ["70 kg", "74 kg", "76 kg", "77 kg"],
+    "answer": "77 kg",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 15% of 40 is greater than 25% of a number by 2, then the number is:",
+    "options": ["12", "16", "24", "32"],
+    "answer": "16",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "At what time between 4 and 5 o'clock will the hands of a clock be at right angle?",
+    "options": ["38 2/11 min past 4", "34 5/11 min past 4", "40 min past 4", "None"],
+    "answer": "38 2/11 min past 4",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The ratio of the areas of two squares, one having its diagonal double that of the other, is:",
+    "options": ["2 : 1", "3 : 1", "4 : 1", "8 : 1"],
+    "answer": "4 : 1",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A person has ₹480 in the denominations of one-rupee notes, five-rupee notes and ten-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has?",
+    "options": ["45", "60", "75", "90"],
+    "answer": "90",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the missing number: 4, 7, 12, 19, 28, ?",
+    "options": ["30", "36", "39", "49"],
+    "answer": "39",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The diagonal of a rectangle is 10 cm and its area is 48 cm². Its perimeter is:",
+    "options": ["28 cm", "32 cm", "36 cm", "40 cm"],
+    "answer": "28 cm",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "In how many years will a sum of money double itself at 12% per annum simple interest?",
+    "options": ["6 years 9 months", "7 years 6 months", "8 years 4 months", "9 years"],
+    "answer": "8 years 4 months",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 'DRINK' is coded as '67' in a certain language, what is the code for 'WATER'?",
+    "options": ["65", "67", "69", "71"],
+    "answer": "67",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Three numbers are in the ratio 1 : 2 : 3 and their HCF is 12. The numbers are:",
+    "options": ["12, 24, 36", "5, 10, 15", "10, 20, 30", "None"],
+    "answer": "12, 24, 36",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the area of a circle whose radius is 7 cm?",
+    "options": ["154 cm²", "44 cm²", "144 cm²", "None"],
+    "answer": "154 cm²",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the next number: 1, 2, 6, 15, 31, ?",
+    "options": ["47", "50", "56", "62"],
+    "answer": "56",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A sum of ₹12,500 amounts to ₹15,500 in 4 years at the rate of simple interest. What is the rate of interest?",
+    "options": ["3%", "4%", "5%", "6%"],
+    "answer": "6%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 2x + y = 5 and 3x - 2y = 4, then the value of x is:",
+    "options": ["1", "2", "3", "4"],
+    "answer": "2",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A tank is 25m long, 12m wide and 6m deep. The cost of plastering its walls and bottom at 75 paise per sq. m is:",
+    "options": ["₹450", "₹558", "₹612", "₹744"],
+    "answer": "₹558",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The difference between compound interest and simple interest on ₹2500 for 2 years at 4% per annum is:",
+    "options": ["₹4", "₹5", "₹8", "₹10"],
+    "answer": "₹4",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the unit digit in the product (3^65 × 6^59 × 7^71)?",
+    "options": ["1", "2", "4", "6"],
+    "answer": "4",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A shopkeeper marks his goods 20% above the cost price and allows a discount of 10% on the marked price. His profit percent is:",
+    "options": ["8%", "10%", "12%", "15%"],
+    "answer": "8%",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "How many times do the hands of a clock coincide in a day?",
+    "options": ["11", "22", "24", "48"],
+    "answer": "22",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man starts walking towards North. After walking 30m, he turns left and walks 40m. How far is he from his starting point?",
+    "options": ["50m", "60m", "70m", "10m"],
+    "answer": "50m",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Which one of the following is not a prime number?",
+    "options": ["31", "61", "71", "91"],
+    "answer": "91",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the simple interest on ₹500 at 6% per annum for 4 years.",
+    "options": ["₹120", "₹150", "₹100", "₹140"],
+    "answer": "₹120",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If 1/3 of a number is 15, then 2/5 of that number is:",
+    "options": ["18", "20", "24", "30"],
+    "answer": "18",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The product of two numbers is 120 and the sum of their squares is 289. The sum of the numbers is:",
+    "options": ["20", "23", "25", "None"],
+    "answer": "23",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A cylinder has a radius of 7 cm and a height of 10 cm. What is its volume?",
+    "options": ["1540 cm³", "770 cm³", "1440 cm³", "None"],
+    "answer": "1540 cm³",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A man can row 5 km/hr in still water. If the velocity of current is 1 km/hr and it takes him 1 hour to row to a place and come back, how far is the place?",
+    "options": ["2.4 km", "2.5 km", "3 km", "3.6 km"],
+    "answer": "2.4 km",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "If log x + log y = log (x + y), then:",
+    "options": ["x = y", "xy = 1", "y = x/(x-1)", "None"],
+    "answer": "y = x/(x-1)",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "In a competitive exam, 4 marks are given for every correct answer and 1 mark is deducted for every wrong answer. If a student attempts 60 questions and gets 130 marks, how many questions did he answer correctly?",
+    "options": ["35", "38", "40", "42"],
+    "answer": "38",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "Find the average of first 10 prime numbers.",
+    "options": ["10.1", "12.9", "15.5", "11.6"],
+    "answer": "12.9",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "The angle of elevation of a ladder leaning against a wall is 60° and the foot of the ladder is 4.6 m away from the wall. The length of the ladder is:",
+    "options": ["2.3 m", "4.6 m", "7.8 m", "9.2 m"],
+    "answer": "9.2 m",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "A sum of money doubles itself in 10 years at compound interest. In how many years will it become four times itself?",
+    "options": ["20 years", "30 years", "40 years", "None"],
+    "answer": "20 years",
+    "test_type": "aptitude"
+  },
+  {
+    "question": "What is the HCF of 42, 63 and 105?",
+    "options": ["7", "14", "21", "63"],
+    "answer": "21",
+    "test_type": "aptitude"
+  }
 
 ]
