@@ -150,6 +150,127 @@
   {"question":"Interview: Which function to convert list to set?","options":["a) set()","b) listToSet()","c) toSet()"],"answer":"a) set()"},
   {"question":"Interview: Which method gives string uppercase?","options":["a) upper()","b) upcase()","c) capitalize()"],"answer":"a) upper()"},
   {"question":"Interview: How to handle multiple exceptions?","options":["a) except (A,B):","b) except A,B:","c) except A or B:"],"answer":"a) except (A,B):"}
+,
+  {
+    "question": "What is the output of print(0.1 + 0.2 == 0.3)?",
+    "options": ["a) True", "b) False", "c) Machine Error"],
+    "answer": "b) False",
+    "test_type": "python"
+  },
+  {
+    "question": "Which of the following is used to achieve 'Multithreading' in Python despite the GIL?",
+    "options": ["a) multiprocessing module", "b) threading module", "c) async module"],
+    "answer": "a) multiprocessing module",
+    "test_type": "python"
+  },
+  {
+    "question": "What is the purpose of the '__init__' method in Python classes?",
+    "options": ["a) To initialize a new object's attributes", "b) To destroy an object", "c) To import a module"],
+    "answer": "a) To initialize a new object's attributes",
+    "test_type": "python"
+  },
+  {
+    "question": "Which decorator is used to define a method that belongs to the class and not the instance?",
+    "options": ["a) @staticmethod", "b) @classmethod", "c) @property"],
+    "answer": "b) @classmethod",
+    "test_type": "python"
+  },
+  {
+    "question": "How do you create a shallow copy of a list 'L'?",
+    "options": ["a) L.copy()", "b) list(L)", "c) Both a and b"],
+    "answer": "c) Both a and b",
+    "test_type": "python"
+  },
+  {
+    "question": "What does the 'self' keyword represent in a class method?",
+    "options": ["a) The class itself", "b) The specific instance of the class", "c) A global variable"],
+    "answer": "b) The specific instance of the class",
+    "test_type": "python"
+  },
+  {
+    "question": "Which of these is used to prevent a block of code from executing when a module is imported?",
+    "options": ["a) if __name__ == '__main__':", "b) if module == 'main':", "c) if run == True:"],
+    "answer": "a) if __name__ == '__main__':",
+    "test_type": "python"
+  },
+  {
+    "question": "What is the result of [i for i in range(5) if i%2==0]?",
+    "options": ["a) [0, 1, 2, 3, 4]", "b) [0, 2, 4]", "c) [2, 4]"],
+    "answer": "b) [0, 2, 4]",
+    "test_type": "python"
+  },
+  {
+    "question": "Which function is used to combine two or more iterables into a single iterable of tuples?",
+    "options": ["a) merge()", "b) combine()", "c) zip()"],
+    "answer": "c) zip()",
+    "test_type": "python"
+  },
+  {
+    "question": "What is a 'Pickle' in Python?",
+    "options": ["a) A way to compress files", "b) Serializing and deserializing Python objects", "c) A type of database"],
+    "answer": "b) Serializing and deserializing Python objects",
+    "test_type": "python"
+  },
+  {
+    "question": "What is the output of: print(type(lambda x: x))?",
+    "options": ["a) <class 'function'>", "b) <class 'lambda'>", "c) <class 'object'>"],
+    "answer": "a) <class 'function'>",
+    "test_type": "python"
+  },
+  {
+    "question": "Which method is used to convert a JSON string into a Python dictionary?",
+    "options": ["a) json.dump()", "b) json.loads()", "c) json.parse()"],
+    "answer": "b) json.loads()",
+    "test_type": "python"
+  },
+  {
+    "question": "In Python, what is 'MRO'?",
+    "options": ["a) Method Resolution Order", "b) Module Runtime Object", "c) Main Resource Operator"],
+    "answer": "a) Method Resolution Order",
+    "test_type": "python"
+  },
+  {
+    "question": "Which keyword allows you to modify a variable outside of the current scope?",
+    "options": ["a) outer", "b) nonlocal", "c) external"],
+    "answer": "b) nonlocal",
+    "test_type": "python"
+  },
+  {
+    "question": "What does the 'pass' statement do?",
+    "options": ["a) Skips the current iteration", "b) It is a null operation; nothing happens", "c) Exits the function"],
+    "answer": "b) It is a null operation; nothing happens",
+    "test_type": "python"
+  },
+  {
+    "question": "Which tool is used to check for PEP8 compliance in Python code?",
+    "options": ["a) PyLint", "b) Flake8", "c) Both a and b"],
+    "answer": "c) Both a and b",
+    "test_type": "python"
+  },
+  {
+    "question": "What is the difference between 'remove()' and 'pop()' in a list?",
+    "options": ["a) remove() takes value, pop() takes index", "b) remove() takes index, pop() takes value", "c) Both are same"],
+    "answer": "a) remove() takes value, pop() takes index",
+    "test_type": "python"
+  },
+  {
+    "question": "How do you catch multiple specific exceptions in one block?",
+    "options": ["a) except ExceptionA, ExceptionB:", "b) except (ExceptionA, ExceptionB):", "c) except ExceptionA | ExceptionB:"],
+    "answer": "b) except (ExceptionA, ExceptionB):",
+    "test_type": "python"
+  },
+  {
+    "question": "What is the output of: print('Python'[:: -1])?",
+    "options": ["a) P", "b) nohtyP", "c) Python"],
+    "answer": "b) nohtyP",
+    "test_type": "python"
+  },
+  {
+    "question": "Which of these data types does NOT allow duplicate elements?",
+    "options": ["a) List", "b) Tuple", "c) Set"],
+    "answer": "c) Set",
+    "test_type": "python"
+  }
 ]
 
 
