@@ -2,77 +2,71 @@
 <html>
 <head>
     <title>Staff Dashboard</title>
-
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <div class="dashboard-wrapper">
-
     <div class="dashboard-box">
-
         <h1>Staff Dashboard</h1>
-        <p class="subtitle">
-            Manage students and examination results
-        </p>
+        <p class="subtitle">Manage students and examination results</p>
 
-        <!-- TOTAL ATTENDED -->
         <div class="stats-box">
-            Total Students Attended Exam :
-            <strong>{{ total_attended }}</strong>
+            Total Students Attended Exam : <strong>{{ total_attended }}</strong>
         </div>
 
-      
-<h2 class="table-title">Exam Results</h2>
+        <form action="/staff/dashboard" method="GET" style="margin: 25px 0; text-align: center;">
+            <input type="text" name="search" value="{{ search_query or '' }}" 
+                   placeholder="Enter Roll Number..." 
+                   style="padding: 10px 15px; width: 250px; border-radius: 8px; border: 1px solid #ddd; font-family: 'Poppins';">
+            
+            <button type="submit" style="padding: 10px 20px; background: #2563eb; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; margin-left: 5px;">
+                Search
+            </button>
+            
+            {% if search_query %}
+                <a href="/staff/dashboard" style="margin-left: 10px; color: #dc2626; text-decoration: none; font-size: 14px;">✕ Clear Search</a>
+            {% endif %}
+        </form>
 
-<table class="styled-table">
+        <h2 class="table-title">Exam Results</h2>
 
-    <tr>
-        <th>Name</th>
-        <th>Roll No</th>
-        <th>Class</th>
-        <th>Department</th>
-        <th>Subject</th>
-        <th>Score</th>
-        <th>Total</th>
-        <th>Action</th>
-    </tr>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Class</th>
+                    <th>Department</th>
+                    <th>Subject</th>
+                    <th>Score</th>
+                    <th>Total</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for r in results %}
+                <tr>
+                    <td>{{ r[1] }}</td> <td>{{ r[2] }}</td> <td>{{ r[3] }}</td> <td>{{ r[4] }}</td> <td>{{ r[5] }}</td> <td>{{ r[6] }}</td> <td>{{ r[7] }}</td> <td>
+                        <a href="/delete/result/{{ r[0] }}" class="delete-btn">Delete</a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="8" style="text-align: center; padding: 20px; color: #666;">
+                        No results found for "{{ search_query }}"
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
 
-    {% for r in results %}
-    <tr>
-
-        <td>{{ r[1] }}</td>   <!-- Name -->
-        <td>{{ r[2] }}</td>   <!-- Rollno -->
-        <td>{{ r[3] }}</td>   <!-- Class -->
-        <td>{{ r[4] }}</td>   <!-- Department -->
-        <td>{{ r[5] }}</td>   <!-- Subject -->
-        <td>{{ r[6] }}</td>   <!-- Score -->
-        <td>{{ r[7] }}</td>   <!-- Total -->
-
-        <td>
-            <a href="/delete/result/{{ r[0] }}"
-               class="delete-btn">
-               Delete
-            </a>
-        </td>
-
-    </tr>
-    {% endfor %}
-
-</table>
-
-        <!-- LOGOUT -->
         <div style="margin-top:30px;">
-            <a href="/"
-               class="role-btn staff">
-               Logout
-            </a>
+            <a href="/" class="role-btn staff">Logout</a>
         </div>
-
     </div>
-
 </div>
 
 </body>
