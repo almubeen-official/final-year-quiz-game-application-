@@ -188,32 +188,40 @@ def staff_login():
 
 @app.route("/staff/dashboard")
 def staff_dashboard():
-
     if not session.get("staff"):
         return redirect("/staff")
+
+    # Search box-la irundhu register number edukkuron
+    search_query = request.args.get('search', '').strip()
 
     db = get_db()
     cur = db.cursor()
 
-    cur.execute("SELECT * FROM students")
-    students = cur.fetchall()
-
-    cur.execute("SELECT * FROM results")
+    if search_query:
+        # SEARCH LOGIC: 
+        # 'roll_no' nu kudutha error varum. So 'rollno' try pannunga.
+        # Idhu unga search box-la kudukura register number-ah mattum filter pannum.
+        cur.execute("SELECT * FROM results WHERE rollno LIKE ?", ('%' + search_query + '%',))
+    else:
+        # Search panna la na ellarudhum show aagum
+        cur.execute("SELECT * FROM results")
+    
     results = cur.fetchall()
 
+    # Matha calculation ellam eppovum pola
+    cur.execute("SELECT * FROM students")
+    students = cur.fetchall()
     cur.execute("SELECT COUNT(DISTINCT student_name) FROM results")
     total_attended = cur.fetchone()[0]
-
     db.close()
 
     return render_template(
         "staff_dashboard.html",
         students=students,
         results=results,
-        total_attended=total_attended
+        total_attended=total_attended,
+        search_query=search_query
     )
-
-
 # ---------------- DELETE ---------------- #
 
 @app.route("/delete/student/<int:id>")
