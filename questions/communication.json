@@ -599,5 +599,96 @@
 "options": ["Listen fully and think", "Interrupt", "Guess the question", "Talk immediately"],
 "answer": "Listen fully and think",
 "test_type": "communication"
-}
+},
+  {
+    "question": "What is 'Mirroring' in non-verbal communication?",
+    "options": ["Looking at a mirror while talking", "Subtly mimicking the other person's body language", "Repeating the exact words of the speaker", "Avoiding eye contact"],
+    "answer": "Subtly mimicking the other person's body language",
+    "test_type": "communication"
+  },
+  {
+    "question": "Which of these is a barrier to effective communication?",
+    "options": ["Active listening", "Emotional disconnect", "Eye contact", "Clarity of speech"],
+    "answer": "Emotional disconnect",
+    "test_type": "communication"
+  },
+  {
+    "question": "In a professional presentation, the 'Rule of Three' refers to:",
+    "options": ["Speaking for only 3 minutes", "Having only 3 slides", "Presenting three main ideas for better retention", "Using 3 different languages"],
+    "answer": "Presenting three main ideas for better retention",
+    "test_type": "communication"
+  },
+  {
+    "question": "What does the term 'Paraphrasing' mean?",
+    "options": ["Writing a long paragraph", "Restating someone's message in your own words", "Interrupting a speaker", "Translating a message"],
+    "answer": "Restating someone's message in your own words",
+    "test_type": "communication"
+  },
+  {
+    "question": "What is the primary purpose of a 'Follow-up' email after an interview?",
+    "options": ["To ask for the salary again", "To express gratitude and reinforce interest", "To complain about the wait time", "To send more personal photos"],
+    "answer": "To express gratitude and reinforce interest",
+    "test_type": "communication"
+  },
+  {
+    "question": "When giving constructive feedback, you should focus on:",
+    "options": ["Personal character", "Past mistakes only", "Specific behaviors and future improvements", "Comparing the person with others"],
+    "answer": "Specific behaviors and future improvements",
+    "test_type": "communication"
+  },
+  {
+    "question": "What is 'Upward Communication'?",
+    "options": ["Talking to a friend", "Communication from subordinates to superiors", "Communication between same-level colleagues", "Sending emails to clients"],
+    "answer": "Communication from subordinates to superiors",
+    "test_type": "communication"
+  },
+  {
+    "question": "Which 'C' of communication refers to using the least number of words to convey a message?",
+    "options": ["Clarity", "Conciseness", "Concreteness", "Courtesy"],
+    "answer": "Conciseness",
+    "test_type": "communication"
+  },
+  {
+    "question": "What is 'Grapevine Communication'?",
+    "options": ["Official news", "Formal meetings", "Informal and unofficial workplace talk", "Video conferencing"],
+    "answer": "Informal and unofficial workplace talk",
+    "test_type": "communication"
+  },
+  {
+    "question": "How should you handle a 'Point of Order' in a formal meeting?",
+    "options": ["Ignore it", "Address the procedural error immediately", "Start a new topic", "Leave the room"],
+    "answer": "Address the procedural error immediately",
+    "test_type": "communication"
+  },
+  {
+    "question": "What does 'Ethos' in persuasion refer to?",
+    "options": ["Emotional appeal", "Logic and facts", "Credibility and character of the speaker", "The speed of speaking"],
+    "answer": "Credibility and character of the speaker",
+    "test_type": "communication"
+  },
+  {
+    "question": "In the 7-38-55 rule of communication, 55% of the message is conveyed through:",
+    "options": ["Words", "Tone of voice", "Body language", "Email"],
+    "answer": "Body language",
+    "test_type": "communication"
+  },
+  {
+    "question": "Which of these is a 'Leading Question'?",
+    "options": ["How was your day?", "Don't you think this project is going well?", "What is your opinion?", "Can you explain this?"],
+    "answer": "Don't you think this project is going well?",
+    "test_type": "communication"
+  },
+  {
+    "question": "What is 'Semantic Noise' in communication?",
+    "options": ["Loud construction sounds", "Misunderstanding of words or symbols", "Bad internet connection", "Talking too fast"],
+    "answer": "Misunderstanding of words or symbols",
+    "test_type": "communication"
+  },
+  {
+    "question": "In a group discussion, 'Gatekeeping' refers to:",
+    "options": ["Stopping others from talking", "Ensuring everyone has a chance to speak", "Leaving the room", "Recording the minutes"],
+    "answer": "Ensuring everyone has a chance to speak",
+    "test_type": "communication"
+  }
+
 ]
